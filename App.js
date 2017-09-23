@@ -1,6 +1,8 @@
 import React from 'react';
 import { StackNavigator } from 'react-navigation';
-import { StyleSheet, Text, TextInput, ScrollView, ListView, View, Picker, Button, TouchableHighlight, Alert, AsyncStorage } from 'react-native';
+import { StyleSheet, Text, TextInput, KeyboardAvoidingView, ScrollView, ListView, View, Picker, Button, StatusBar, TouchableHighlight, Alert, AsyncStorage, Platform } from 'react-native';
+import LocalizationStrings from 'react-native-localization';
+import * as GLOBAL from './Globals';
 
 export default class App extends React.Component {
   render() {
@@ -37,7 +39,7 @@ class ConversationList extends React.Component {
 	const { navigate } = this.props.navigation;
     return (
       <View style={styles.container}>
-        <ListView style={{flexGrow: 1}} dataSource={this.state.conversations} renderRow={this._renderConversation}/>
+        <ListView style={{flexGrow: 1}} dataSource={this.state.conversations} renderRow={this._renderConversation.bind(this)} enableEmptySections={true}/>
         <View style={styles.buttonContainer}>
           <Button onPress={() => navigate('New Conversation', {})} title="New" />
         </View>
@@ -47,7 +49,7 @@ class ConversationList extends React.Component {
   
   _renderConversation(rowData, sectionID, rowID) {
 	return (
-  	  <TouchableHighlight onPress={() => this._goToConversation(rowID)}>
+  	  <TouchableHighlight onPress={() => this._goToConversation(rowData)}>
 	    <View>
 	      <View style={styles.row}>
 	        <Text style={styles.text}>
@@ -59,8 +61,9 @@ class ConversationList extends React.Component {
 	);
   }
   
-  _goToConversation() {
-    Alert.alert('Going to conversation!')
+  _goToConversation(row) {
+	const { navigate } = this.props.navigation;
+	navigate('Chat', row);
   }
   
   _removeConversation() {
@@ -69,34 +72,107 @@ class ConversationList extends React.Component {
 }
 
 class ChatScreen extends React.Component {
-  static navigationOptions = {
-	title: 'Chat'
+  static navigationOptions = ({ navigation }) => {
+	const {params = {}} = navigation.state;
+	console.log(params.selectedLanguage)
+	return {
+	  title: navigation.state.params.text,
+	  headerRight: <View style={{marginRight: 20, flexDirection: 'row'}}><Text>{params.selectedLanguage == 1 ? params.language1 : params.language2}</Text><Button title="Switch" onPress={() => params._switchLanguage()} /></View>
+	}
   }
+  
+  constructor(props) {
+	super(props);
+
+	this.state = props.navigation.state.params;
+	let ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
+	this.state.input = '';
+	this.state.chat = ds.cloneWithRows([]);
+	this.state.selectedLanguage = 1;
+  }
+  
+  componentWillMount() {
+	this.props.navigation.setParams({
+	  _switchLanguage: this._switchLanguage.bind(this),
+	  selectedLanguage: this.state.selectedLanguage
+	});
+  }
+  
+  componentDidMount() {
+	AsyncStorage.getItem('Chat.'+this.state.text).then((value) => {
+      let source = [];
+	  if (value != '' && value != null) {
+		source = JSON.parse(value);
+	  }
+	  let ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2 || r1.current !== r2.current});
+	  this.setState({'source': source, 'chat': ds.cloneWithRows(source)});
+	}).done();
+  }
+
   render() {
 	const { navigate } = this.props.navigation;
     return (
+      <KeyboardAvoidingView  behavior="padding" style={{flex: 1}} keyboardVerticalOffset={64}>
       <View style={styles.container}>
-        <View style={{height: 50, margin: 20}}>
-          <Text style={{fontSize: 20}}>Chat</Text>
-        </View>
-        <ScrollView style={{flexGrow: 1}}>
-          <Text>Open up App.js to start working on your app!</Text>
-          <Text>Changes you make will automatically reload.</Text>
-          <Text>Shake your phone to open the developer menu.</Text>
-        </ScrollView>
-        <View style={styles.buttonContainer}>
-          <Button onPress={this._addConversation} title="Add" />
+        <ListView style={{flexGrow: 1}} dataSource={this.state.chat} renderRow={this._renderChat.bind(this)} enableEmptySections={true}/>
+        <View style={styles.inputContainer}>
+          <TextInput style={styles.input} autoFocus={true} onChangeText={(input) => this.setState({input})} onSubmitEditing={this._sendMessage.bind(this)} value={this.state.input} />
+          <Button style={styles.inputSubmit} onPress={this._sendMessage.bind(this)} title={strings.send} />
         </View>
       </View>
+      </KeyboardAvoidingView>
     );
   }
   
-  _addConversation() {
-    Alert.alert('Adding conversation!')
+  _renderChat(rowData, sectionID, rowID) {
+	return (
+  	  <TouchableHighlight onPress={() => true}>
+	    <View>
+	      <View style={styles.row}>
+	        <Text style={styles.text}>
+	          {this.state.selectedLanguage == rowData.language ? rowData.text : rowData.translated}
+	        </Text>
+	      </View>
+	    </View>
+	  </TouchableHighlight>
+	);
   }
   
-  _removeConversation() {
-    Alert.alert('Removing conversation!')
+  _sendMessage() {
+	let request = {
+	  'q': this.state.input,
+	  'source': this.state.selectedLanguage == 1 ? this.state.language1 : this.state.language2,
+	  'target': this.state.selectedLanguage == 1 ? this.state.language2 : this.state.language1,
+	  'format': 'text'
+	}
+	fetch('https://translation.googleapis.com/language/translate/v2?key=' + GLOBAL.API_KEY, {
+	  method: 'POST',
+	  body: JSON.stringify(request)
+	}).then((response) => {
+	  let data = JSON.parse(response._bodyText)
+	  if (data.data != undefined && data.data.translations != undefined) {
+		data = data.data.translations[0].translatedText
+	  } else {
+		data = ''
+	  }
+      this.state.source = this.state.source.concat([{text: this.state.input, language: this.state.selectedLanguage, translated: data}])
+      AsyncStorage.setItem('Chat.'+this.state.text, JSON.stringify(this.state.source)).done()
+      this._switchLanguage()
+	  return data
+	}).catch((error) => {
+	  console.error(error)
+	}).done()
+  }
+  
+  _switchLanguage() {
+	this.state.selectedLanguage == 1 ? this.state.selectedLanguage = 2 : this.state.selectedLanguage = 1
+	this.props.navigation.setParams({
+	  selectedLanguage: this.state.selectedLanguage
+	});
+	console.log(this.state.source)
+    this.state.source = this.state.source.map((x) => {return {text: x.text, language: x.language, translated: x.translated, current: this.state.selectedLanguage}})
+	console.log(this.state.source)
+	this.setState({ chat: this.state.chat.cloneWithRows(this.state.source), input: ''})
   }
 }
 
@@ -111,6 +187,7 @@ class AddConversation extends React.Component {
   render() {
 	const { navigate } = this.props.navigation;
     return (
+      <KeyboardAvoidingView  behavior="padding" style={{flex: 1}} keyboardVerticalOffset={64}>
       <View style={styles.container}>
         <ScrollView style={{flexGrow: 1, flexDirection: 'column'}}>
           <Text style={styles.spacer}></Text>
@@ -119,18 +196,51 @@ class AddConversation extends React.Component {
           <Text style={styles.label}>Your Language</Text>
           <Picker style={{margin: 20}} selectedValue={this.state.language1} onValueChange={(itemValue, itemIndex) => this.setState({language1: itemValue})}>
             <Picker.Item label="English" value="en" />
-            <Picker.Item label="Chinese (traditional)" value="cn" />
+            <Picker.Item label="Chinese (Simplified)" value="zh-CN" />
+            <Picker.Item label="Chinese (Traditional)" value="zh-TW" />
+            <Picker.Item label="Czech" value="cs" />
+            <Picker.Item label="Dutch" value="nl" />
+            <Picker.Item label="French" value="fr" />
+            <Picker.Item label="German" value="de" />
+            <Picker.Item label="Hindi" value="hi" />
+            <Picker.Item label="Italian" value="it" />
+            <Picker.Item label="Japanese" value="ja" />
+            <Picker.Item label="Korean" value="ko" />
+            <Picker.Item label="Nepali" value="ne" />
+            <Picker.Item label="Polish" value="pl" />
+            <Picker.Item label="Portuguese" value="pt" />
+            <Picker.Item label="Spanish" value="es" />
+            <Picker.Item label="Tagalog" value="tl" />
+            <Picker.Item label="Thai" value="th" />
+            <Picker.Item label="Vietnamese" value="vi" />
           </Picker>
           <Text style={styles.label}>Translated Language</Text>
           <Picker style={{margin: 20}} selectedValue={this.state.language2} onValueChange={(itemValue, itemIndex) => this.setState({language2: itemValue})}>
             <Picker.Item label="English" value="en" />
-            <Picker.Item label="Chinese (traditional)" value="cn" />
+            <Picker.Item label="Chinese (Simplified)" value="zh-CN" />
+            <Picker.Item label="Chinese (Traditional)" value="zh-TW" />
+            <Picker.Item label="Czech" value="cs" />
+            <Picker.Item label="Dutch" value="nl" />
+            <Picker.Item label="French" value="fr" />
+            <Picker.Item label="German" value="de" />
+            <Picker.Item label="Hindi" value="hi" />
+            <Picker.Item label="Italian" value="it" />
+            <Picker.Item label="Japanese" value="ja" />
+            <Picker.Item label="Korean" value="ko" />
+            <Picker.Item label="Nepali" value="ne" />
+            <Picker.Item label="Polish" value="pl" />
+            <Picker.Item label="Portuguese" value="pt" />
+            <Picker.Item label="Spanish" value="es" />
+            <Picker.Item label="Tagalog" value="tl" />
+            <Picker.Item label="Thai" value="th" />
+            <Picker.Item label="Vietnamese" value="vi" />
           </Picker>
         </ScrollView>
         <View style={styles.buttonContainer}>
           <Button onPress={ () => this._saveConversations(navigate).done()} title="Add" />
         </View>
       </View>
+      </KeyboardAvoidingView>
     );
   }
   
@@ -166,6 +276,10 @@ const styles = StyleSheet.create({
   buttonContainer: {
 	margin: 20
   },
+  inputContainer: {
+	flexDirection: 'row',
+	margin: 20  
+  },
   row: {
 	flexDirection: 'row',
 	justifyContent: 'center',
@@ -173,6 +287,12 @@ const styles = StyleSheet.create({
   },
   text: {
 	flex: 1
+  },
+  input: {
+	flex: 1
+  },
+  inputSubmit: {
+	flex: 0
   },
   label: {
 	marginLeft: 20,
@@ -188,5 +308,14 @@ const AppNavigator = StackNavigator({
   Conversations: { screen: ConversationList },
   Chat: { screen: ChatScreen },
   "New Conversation": { screen: AddConversation }
+},{
+  cardStyle: {
+	paddingTop: Platform.OS === 'ios' ? 0 : StatusBar.currentHeight
+  }
 });
 
+const strings = new LocalizedStrings({
+  en: {
+	send: "Send"
+  }
+});

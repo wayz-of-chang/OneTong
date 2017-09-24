@@ -1,7 +1,8 @@
 import React from 'react';
-import { StackNavigator } from 'react-navigation';
-import { StyleSheet, Text, TextInput, KeyboardAvoidingView, ScrollView, ListView, View, Picker, Button, StatusBar, TouchableHighlight, Alert, AsyncStorage, Platform } from 'react-native';
 import LocalizationStrings from 'react-native-localization';
+import KeyboardSpacer from 'react-native-keyboard-spacer';
+import { StackNavigator } from 'react-navigation';
+import { StyleSheet, Text, TextInput, FlatList, ScrollView, View, Picker, Button, StatusBar, TouchableHighlight, Alert, AsyncStorage, Platform } from 'react-native';
 import * as GLOBAL from './Globals';
 
 export default class App extends React.Component {
@@ -20,40 +21,33 @@ class ConversationList extends React.Component {
   constructor(props) {
 	super(props);
 
-	let ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
-	this.state = { conversations: ds.cloneWithRows([]) };
+	this.state = { conversations: [] };
   }
   
   componentDidMount() {
-	AsyncStorage.getItem('Conversations').then((value) => {
-      let conversations = [];
-	  if (value != '') {
-		conversations = JSON.parse(value);
-	  }
-	  let ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
-	  this.setState({'conversations': ds.cloneWithRows(conversations)});
-	}).done();
+	this._updateConversations()
   }
 
   render() {
 	const { navigate } = this.props.navigation;
     return (
       <View style={styles.container}>
-        <ListView style={{flexGrow: 1}} dataSource={this.state.conversations} renderRow={this._renderConversation.bind(this)} enableEmptySections={true}/>
+        <FlatList style={{flexGrow: 1}} data={this.state.conversations} renderItem={this._renderConversation.bind(this)} enableEmptySections={true} keyExtractor={(item, index) => {return index}}/>
         <View style={styles.buttonContainer}>
-          <Button onPress={() => navigate('New Conversation', {})} title="New" />
+          <Button onPress={() => navigate('New Conversation', {_updateConversations: this._updateConversations.bind(this)})} title="New" />
         </View>
       </View>
     );
   }
   
-  _renderConversation(rowData, sectionID, rowID) {
+  _renderConversation(rowData) {
+	let item = rowData.item
 	return (
-  	  <TouchableHighlight onPress={() => this._goToConversation(rowData)}>
+  	  <TouchableHighlight onPress={() => this._goToConversation(item)}>
 	    <View>
 	      <View style={styles.row}>
 	        <Text style={styles.text}>
-	          {rowData.text}
+	          {item.text}
 	        </Text>
 	      </View>
 	    </View>
@@ -66,6 +60,16 @@ class ConversationList extends React.Component {
 	navigate('Chat', row);
   }
   
+  _updateConversations() {
+	AsyncStorage.getItem('Conversations').then((value) => {
+      let conversations = [];
+	  if (value != '' && value != null) {
+		conversations = JSON.parse(value);
+	  }
+	  this.setState({'conversations': conversations});
+	}).done();
+  }
+  
   _removeConversation() {
     Alert.alert('Removing conversation!')
   }
@@ -74,7 +78,6 @@ class ConversationList extends React.Component {
 class ChatScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
 	const {params = {}} = navigation.state;
-	console.log(params.selectedLanguage)
 	return {
 	  title: navigation.state.params.text,
 	  headerRight: <View style={{marginRight: 20, flexDirection: 'row'}}><Text>{params.selectedLanguage == 1 ? params.language1 : params.language2}</Text><Button title="Switch" onPress={() => params._switchLanguage()} /></View>
@@ -85,9 +88,7 @@ class ChatScreen extends React.Component {
 	super(props);
 
 	this.state = props.navigation.state.params;
-	let ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
 	this.state.input = '';
-	this.state.chat = ds.cloneWithRows([]);
 	this.state.selectedLanguage = 1;
   }
   
@@ -104,33 +105,32 @@ class ChatScreen extends React.Component {
 	  if (value != '' && value != null) {
 		source = JSON.parse(value);
 	  }
-	  let ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2 || r1.current !== r2.current});
-	  this.setState({'source': source, 'chat': ds.cloneWithRows(source)});
+	  this.setState({'source': source});
 	}).done();
   }
 
   render() {
 	const { navigate } = this.props.navigation;
     return (
-      <KeyboardAvoidingView  behavior="padding" style={{flex: 1}} keyboardVerticalOffset={64}>
-      <View style={styles.container}>
-        <ListView style={{flexGrow: 1}} dataSource={this.state.chat} renderRow={this._renderChat.bind(this)} enableEmptySections={true}/>
+      <ScrollView style={{flex: 1, flexDirection: 'column'}}>
+        <FlatList style={{flex: 1}} data={this.state.source} extraData={this.state.selectedLanguage} renderItem={this._renderChat.bind(this)} enableEmptySections={true} ref="listView" keyExtractor={(item, index) => {return index}}/>
         <View style={styles.inputContainer}>
           <TextInput style={styles.input} autoFocus={true} onChangeText={(input) => this.setState({input})} onSubmitEditing={this._sendMessage.bind(this)} value={this.state.input} />
-          <Button style={styles.inputSubmit} onPress={this._sendMessage.bind(this)} title={strings.send} />
+          <Button onPress={this._sendMessage.bind(this)} title={strings.send} />
         </View>
-      </View>
-      </KeyboardAvoidingView>
+        <KeyboardSpacer/>
+      </ScrollView>
     );
   }
   
-  _renderChat(rowData, sectionID, rowID) {
+  _renderChat(rowData) {
+	let item = rowData.item
 	return (
   	  <TouchableHighlight onPress={() => true}>
 	    <View>
 	      <View style={styles.row}>
 	        <Text style={styles.text}>
-	          {this.state.selectedLanguage == rowData.language ? rowData.text : rowData.translated}
+	          {this.state.selectedLanguage == item.language ? item.text : item.translated}
 	        </Text>
 	      </View>
 	    </View>
@@ -157,6 +157,7 @@ class ChatScreen extends React.Component {
 	  }
       this.state.source = this.state.source.concat([{text: this.state.input, language: this.state.selectedLanguage, translated: data}])
       AsyncStorage.setItem('Chat.'+this.state.text, JSON.stringify(this.state.source)).done()
+      this.refs.listView.scrollToEnd()
       this._switchLanguage()
 	  return data
 	}).catch((error) => {
@@ -169,10 +170,7 @@ class ChatScreen extends React.Component {
 	this.props.navigation.setParams({
 	  selectedLanguage: this.state.selectedLanguage
 	});
-	console.log(this.state.source)
-    this.state.source = this.state.source.map((x) => {return {text: x.text, language: x.language, translated: x.translated, current: this.state.selectedLanguage}})
-	console.log(this.state.source)
-	this.setState({ chat: this.state.chat.cloneWithRows(this.state.source), input: ''})
+	this.setState({ input: '' })
   }
 }
 
@@ -185,11 +183,10 @@ class AddConversation extends React.Component {
 	this.state = { text: '', language1: 'en', language2: 'en' };
   }
   render() {
-	const { navigate } = this.props.navigation;
+	const { goBack, state } = this.props.navigation;
     return (
-      <KeyboardAvoidingView  behavior="padding" style={{flex: 1}} keyboardVerticalOffset={64}>
       <View style={styles.container}>
-        <ScrollView style={{flexGrow: 1, flexDirection: 'column'}}>
+        <ScrollView style={{flex: 1, flexDirection: 'column'}}>
           <Text style={styles.spacer}></Text>
           <Text style={styles.label}>Name</Text>
           <TextInput style={{margin: 20}} onChangeText={(textValue) => this.setState({text: textValue})} value={this.state.text} />
@@ -237,24 +234,26 @@ class AddConversation extends React.Component {
           </Picker>
         </ScrollView>
         <View style={styles.buttonContainer}>
-          <Button onPress={ () => this._saveConversations(navigate).done()} title="Add" />
+          <Button onPress={ () => this._saveConversations(goBack, state).done()} title="Add" />
         </View>
+        <KeyboardSpacer/>
       </View>
-      </KeyboardAvoidingView>
     );
   }
   
-  async _saveConversations(navigate) {
+  async _saveConversations(goBack, state) {
     try { 
 	  AsyncStorage.getItem('Conversations').then((value) => {
         let conversations = [];
-		if (value != '') {
+		if (value != '' && value != null) {
 		  conversations = JSON.parse(value);
 		}
 		conversations.push(this.state);
 		AsyncStorage.setItem('Conversations', JSON.stringify(conversations)).done(); 
+	  }).then(() => {
+        state.params._updateConversations();
+	    goBack();
 	  }).done();
-	  navigate('Conversations', {}); 
 	} catch (error) { 
 	  Alert.alert ('Could not add new conversation'); 
 	}
@@ -274,16 +273,21 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   buttonContainer: {
-	margin: 20
+	margin: 10
   },
   inputContainer: {
+	flex: 0,
 	flexDirection: 'row',
-	margin: 20  
+    backgroundColor: '#fff',
+    alignItems: 'center',
+	padding: 10
   },
   row: {
 	flexDirection: 'row',
 	justifyContent: 'center',
+    backgroundColor: '#fff',
 	padding: 10,
+	margin: 5
   },
   text: {
 	flex: 1
@@ -314,7 +318,7 @@ const AppNavigator = StackNavigator({
   }
 });
 
-const strings = new LocalizedStrings({
+const strings = new LocalizationStrings({
   en: {
 	send: "Send"
   }

@@ -1,0 +1,4 @@
+#Sun Sep 24 15:33:36 CDT 2017
+base.0=C\:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes.dex

@@ -3,15 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\david\OneTong\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
-        <dex dex="C:\Users\david\OneTong\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.0.1_4c9ddd6c844615a46638058ddcd644f9a5036059.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\david\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
         jumboMode="false"
         optimize="true"
@@ -36,15 +27,6 @@
         revision="23.0.1"
         sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
         <dex dex="C:\Users\david\OneTong\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.0.1_a6af329f99b572135e93eb46bf29c523b388f348.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\david\OneTong\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="C:\Users\david\OneTong\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_dcb25ed6eb4d2a5422a0a41d54a68cf10feb5ec1.jar" />
     </item>
     <item
         is-multidex="false"
@@ -93,6 +75,69 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\david\OneTong\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="C:\Users\david\OneTong\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.0.1_40a6b94b5fe68060d360d13d3c8f98a4023732c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\david\OneTong\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="C:\Users\david\OneTong\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.0.1_71c49a3a2d811a058cbfa237360b806e903ba9df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\david\OneTong\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\david\OneTong\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_1a0b5a4dd7e3e2e4ee838a0aeffb0fedb9fd8edc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\david\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Users\david\OneTong\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_566a66bff6aec566776783baa563eb28fb361d97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\david\OneTong\android\app\build\intermediates\exploded-aar\OneTong\react-native-localization\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8e2bf9716e283f0c9f8411abe3033b15428de2ea">
+        <dex dex="C:\Users\david\OneTong\android\app\build\intermediates\pre-dexed\debug\OneTong-react-native-localization-unspecified_75aad07ae3ffb762fa06e301c1c1f16779f36bd7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\david\OneTong\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="C:\Users\david\OneTong\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.0.1_4c9ddd6c844615a46638058ddcd644f9a5036059.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\david\OneTong\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="C:\Users\david\OneTong\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_dcb25ed6eb4d2a5422a0a41d54a68cf10feb5ec1.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\david\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"
@@ -120,39 +165,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\david\OneTong\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
-        <dex dex="C:\Users\david\OneTong\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.0.1_40a6b94b5fe68060d360d13d3c8f98a4023732c2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\david\OneTong\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
-        <dex dex="C:\Users\david\OneTong\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.0.1_71c49a3a2d811a058cbfa237360b806e903ba9df.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\david\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="6975da39a7040257bd51d21a231b76c915872d38">
         <dex dex="C:\Users\david\OneTong\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_a2543d364bffa7be79fde2868dbefeeb827086a0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\david\OneTong\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="C:\Users\david\OneTong\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_1a0b5a4dd7e3e2e4ee838a0aeffb0fedb9fd8edc.jar" />
     </item>
     <item
         is-multidex="false"
@@ -165,30 +183,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\david\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="C:\Users\david\OneTong\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_566a66bff6aec566776783baa563eb28fb361d97.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\david\OneTong\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
         <dex dex="C:\Users\david\OneTong\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_65b85ed572fb68b2ba774cf9ea5c562d38c6fcda.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\david\OneTong\android\app\build\intermediates\exploded-aar\OneTong\react-native-localization\unspecified\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8e2bf9716e283f0c9f8411abe3033b15428de2ea">
-        <dex dex="C:\Users\david\OneTong\android\app\build\intermediates\pre-dexed\debug\OneTong-react-native-localization-unspecified_75aad07ae3ffb762fa06e301c1c1f16779f36bd7.jar" />
     </item>
     <item
         is-multidex="false"

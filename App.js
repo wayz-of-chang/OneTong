@@ -1,8 +1,9 @@
 import React from 'react';
 import LocalizationStrings from 'react-native-localization';
 import KeyboardSpacer from 'react-native-keyboard-spacer';
+import Flag from 'react-native-flags';
 import { StackNavigator } from 'react-navigation';
-import { StyleSheet, Text, TextInput, FlatList, ScrollView, View, Picker, Button, StatusBar, TouchableHighlight, Alert, AsyncStorage, Platform, Keyboard } from 'react-native';
+import { StyleSheet, Text, TextInput, FlatList, ScrollView, View, Picker, Switch, Button, StatusBar, TouchableHighlight, Alert, AsyncStorage, Platform, Keyboard, Clipboard } from 'react-native';
 import * as GLOBAL from './Globals';
 
 export default class App extends React.Component {
@@ -14,8 +15,12 @@ export default class App extends React.Component {
 }
 
 class ConversationList extends React.Component {
-  static navigationOptions = {
-	title: 'Conversations'
+  static navigationOptions = ({ navigation }) => {
+	const {params = {}} = navigation.state;
+	return {
+	  title: 'Conversations',
+	  headerRight: <View style={{marginRight: 20, flexDirection: 'row'}}><Button title="About" onPress={() => params._showAbout()} /></View>
+    }
   }
   
   constructor(props) {
@@ -26,6 +31,12 @@ class ConversationList extends React.Component {
   
   componentDidMount() {
 	this._updateConversations()
+  }
+
+  componentWillMount() {
+	this.props.navigation.setParams({
+	  _showAbout: this._showAbout.bind(this)
+	});
   }
 
   render() {
@@ -42,16 +53,24 @@ class ConversationList extends React.Component {
   
   _renderConversation(rowData) {
 	let item = rowData.item
+	let countryCode1 = this._getCountryCode(item.language1)
+	let countryCode2 = this._getCountryCode(item.language2)
 	return (
-  	  <TouchableHighlight onPress={() => this._goToConversation(item)}>
-	    <View>
+	  <View>
+	    <TouchableHighlight style={{borderRadius: 5}} underlayColor='#88f' onPress={() => this._goToConversation(item)}>
 	      <View style={styles.row}>
 	        <Text style={styles.text}>
 	          {item.text}
 	        </Text>
+	        <Flag code={countryCode1} size={48} type='shiny'/>
+	        <Flag code={countryCode2} size={48} type='shiny'/>
+	        <Text>
+	          {'  '}
+	        </Text>
+	        <Button onPress={() => {this._removeConversation(item.text, rowData.index)}} title="Delete" />
 	      </View>
-	    </View>
-	  </TouchableHighlight>
+	    </TouchableHighlight>
+	  </View>
 	);
   }
   
@@ -70,8 +89,54 @@ class ConversationList extends React.Component {
 	}).done();
   }
   
-  _removeConversation() {
-    Alert.alert('Removing conversation!')
+  _removeConversation(row, index) {
+    Alert.alert(
+      'Confirm Deletion',
+      'Are you sure you want to delete ' + row + '?',
+      [
+        {text: 'No', onPress: () => {}},
+        {text: 'Yes', onPress: () => {this._deleteConversation(row, index)}}
+      ]
+    )
+  }
+  
+  _deleteConversation(row, index) {
+	this.state.conversations.splice(index, 1)
+	this.setState({conversations: this.state.conversations})
+    try { 
+	  AsyncStorage.setItem('Conversations', JSON.stringify(this.state.conversations)).done(); 
+	  AsyncStorage.removeItem('Chat.'+row);
+	} catch (error) { 
+	  Alert.alert ('Could not delete conversation'); 
+	}
+  }
+  
+  _getCountryCode(locale) {
+	let locale_country_map = {
+	  'en': 'US',
+	  'zh-CN': 'CN',
+	  'zh-TW': 'TW',
+	  'cs': 'CZ',
+	  'nl': 'NL',
+	  'fr': 'FR',
+	  'de': 'DE',
+	  'hi': 'IN',
+	  'it': 'IT',
+	  'ja': 'JP',
+	  'ko': 'KP',
+	  'ne': 'NP',
+	  'pl': 'PL',
+	  'pt': 'PT',
+	  'es': 'ES',
+	  'tl': 'PH',
+	  'th': 'TH',
+	  'vi': 'VN'
+	}
+	return locale_country_map[locale]
+  }
+  
+  _showAbout() {
+	Alert.alert('About', 'This is just a basic conversation translator app to help people hold conversations between two languages.  Written by David Chang (2017).')
   }
 }
 
@@ -79,8 +144,8 @@ class ChatScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
 	const {params = {}} = navigation.state;
 	return {
-	  title: navigation.state.params.text,
-	  headerRight: <View style={{marginRight: 20, flexDirection: 'row'}}><Text>{params.selectedLanguage == 1 ? params.language1 : params.language2}</Text><Button title="Switch" onPress={() => params._switchLanguage()} /></View>
+	  title: navigation.state.params.text.length > 20 ? navigation.state.params.text.substr(0, 20) + '...' : navigation.state.params.text,
+	  headerRight: <View style={{marginRight: 20, flexDirection: 'row'}}><Flag code={params.countryCode1} size={48} type={params.selectedLanguage == 1 ? 'shiny' : 'flat'}/><Switch onTintColor='#00f' tintColor='#f00' onValueChange={(value) => {params._switchLanguage()}} value={params.selectedLanguage == 2}/><Flag code={params.countryCode2} size={48} type={params.selectedLanguage == 2 ? 'shiny' : 'flat'}/></View>
 	}
   }
   
@@ -98,6 +163,8 @@ class ChatScreen extends React.Component {
   componentWillMount() {
 	this.props.navigation.setParams({
 	  _switchLanguage: this._switchLanguage.bind(this),
+	  countryCode1: this._getCountryCode(this.state.language1),
+	  countryCode2: this._getCountryCode(this.state.language2),
 	  selectedLanguage: this.state.selectedLanguage
 	});
   }
@@ -117,9 +184,9 @@ class ChatScreen extends React.Component {
     return (
       <View style={{flex: 1, flexDirection: 'column'}}>
         <FlatList style={{flex: 1}} data={this.state.source} extraData={this.state.selectedLanguage} renderItem={this._renderChat.bind(this)} enableEmptySections={true} ref="listView" keyExtractor={(item, index) => {return index}}/>
-        <View style={styles.inputContainer}>
+        <View style={this.state.selectedLanguage == 1 ? styles.inputContainer1 : styles.inputContainer2}>
           <TextInput style={styles.input} autoFocus={true} onChangeText={(input) => this.setState({input})} onSubmitEditing={this._sendMessage.bind(this)} value={this.state.input} />
-          <Button onPress={this._sendMessage.bind(this)} title={strings.send} />
+          <Button color={this.state.selectedLanguage == 1 ? '#f00' : '#00f'} onPress={this._sendMessage.bind(this)} title={strings.send} />
         </View>
       </View>
     );
@@ -128,15 +195,15 @@ class ChatScreen extends React.Component {
   _renderChat(rowData) {
 	let item = rowData.item
 	return (
-  	  <TouchableHighlight onPress={() => true}>
-	    <View>
-	      <View style={styles.row}>
-	        <Text style={styles.text}>
+      <View style={{flexDirection: 'row', margin: 5, flex: 1}}>
+	    <View style={{flex: 1, flexDirection: 'column'}}>
+  	      <TouchableHighlight underlayColor='#aaa' style={item.language == 1 ? styles.language1Text : styles.language2Text} onPress={() => {Clipboard.setString(this.state.selectedLanguage == item.language ? item.text : item.translated)}}>
+	        <Text style={item.language == 1 ? styles.language1Align : styles.language2Align}>
 	          {this.state.selectedLanguage == item.language ? item.text : item.translated}
 	        </Text>
-	      </View>
+	      </TouchableHighlight>
 	    </View>
-	  </TouchableHighlight>
+	  </View>
 	);
   }
   
@@ -177,6 +244,30 @@ class ChatScreen extends React.Component {
 	  selectedLanguage: this.state.selectedLanguage
 	});
 	this.setState({ input: '' })
+  }
+  
+  _getCountryCode(locale) {
+	let locale_country_map = {
+	  'en': 'US',
+	  'zh-CN': 'CN',
+	  'zh-TW': 'TW',
+	  'cs': 'CZ',
+	  'nl': 'NL',
+	  'fr': 'FR',
+	  'de': 'DE',
+	  'hi': 'IN',
+	  'it': 'IT',
+	  'ja': 'JP',
+	  'ko': 'KP',
+	  'ne': 'NP',
+	  'pl': 'PL',
+	  'pt': 'PT',
+	  'es': 'ES',
+	  'tl': 'PH',
+	  'th': 'TH',
+	  'vi': 'VN'
+	}
+	return locale_country_map[locale]
   }
 }
 
@@ -280,22 +371,52 @@ const styles = StyleSheet.create({
   buttonContainer: {
 	margin: 10
   },
-  inputContainer: {
+  inputContainer1: {
 	flex: 0,
 	flexDirection: 'row',
-    backgroundColor: '#fff',
+    backgroundColor: '#fdd',
+    alignItems: 'center',
+	padding: 10
+  },
+  inputContainer2: {
+	flex: 0,
+	flexDirection: 'row',
+    backgroundColor: '#ddf',
     alignItems: 'center',
 	padding: 10
   },
   row: {
 	flexDirection: 'row',
+	alignItems: 'center',
 	justifyContent: 'center',
     backgroundColor: '#fff',
 	padding: 10,
 	margin: 5
   },
   text: {
-	flex: 1
+	flex: 1,
+    fontWeight: 'bold',
+	color: '#000',
+  },
+  language1Text: {
+	alignSelf: 'flex-start',
+	padding: 10, 
+	backgroundColor: '#fdd',
+	borderRadius: 5
+  },
+  language2Text: {
+	alignSelf: 'flex-end',
+	padding: 10, 
+	backgroundColor: '#ddf',
+	borderRadius: 5
+  },
+  language1Align: {
+	color: '#000',
+	textAlign: 'left'
+  },
+  language2Align: {
+	color: '#000',
+	textAlign: 'right'
   },
   input: {
 	flex: 1
@@ -319,7 +440,7 @@ const AppNavigator = StackNavigator({
   "New Conversation": { screen: AddConversation }
 },{
   cardStyle: {
-	paddingTop: Platform.OS === 'ios' ? 0 : StatusBar.currentHeight
+	paddingTop: Platform.OS === 'ios' ? 0 : StatusBar.currentHeight - StatusBar.currentHeight
   }
 });
 

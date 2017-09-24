@@ -2,7 +2,7 @@ import React from 'react';
 import LocalizationStrings from 'react-native-localization';
 import KeyboardSpacer from 'react-native-keyboard-spacer';
 import { StackNavigator } from 'react-navigation';
-import { StyleSheet, Text, TextInput, FlatList, ScrollView, View, Picker, Button, StatusBar, TouchableHighlight, Alert, AsyncStorage, Platform } from 'react-native';
+import { StyleSheet, Text, TextInput, FlatList, ScrollView, View, Picker, Button, StatusBar, TouchableHighlight, Alert, AsyncStorage, Platform, Keyboard } from 'react-native';
 import * as GLOBAL from './Globals';
 
 export default class App extends React.Component {
@@ -90,6 +90,9 @@ class ChatScreen extends React.Component {
 	this.state = props.navigation.state.params;
 	this.state.input = '';
 	this.state.selectedLanguage = 1;
+	
+	this.keyboardDidShowListener = Keyboard.addListener('keyboardDidShow', (evt) => {this._scrollToEnd()})
+	this.keyboardDidShowListener = Keyboard.addListener('keyboardDidHide', (evt) => {this._scrollToEnd()})
   }
   
   componentWillMount() {
@@ -112,14 +115,13 @@ class ChatScreen extends React.Component {
   render() {
 	const { navigate } = this.props.navigation;
     return (
-      <ScrollView style={{flex: 1, flexDirection: 'column'}}>
+      <View style={{flex: 1, flexDirection: 'column'}}>
         <FlatList style={{flex: 1}} data={this.state.source} extraData={this.state.selectedLanguage} renderItem={this._renderChat.bind(this)} enableEmptySections={true} ref="listView" keyExtractor={(item, index) => {return index}}/>
         <View style={styles.inputContainer}>
           <TextInput style={styles.input} autoFocus={true} onChangeText={(input) => this.setState({input})} onSubmitEditing={this._sendMessage.bind(this)} value={this.state.input} />
           <Button onPress={this._sendMessage.bind(this)} title={strings.send} />
         </View>
-        <KeyboardSpacer/>
-      </ScrollView>
+      </View>
     );
   }
   
@@ -157,12 +159,16 @@ class ChatScreen extends React.Component {
 	  }
       this.state.source = this.state.source.concat([{text: this.state.input, language: this.state.selectedLanguage, translated: data}])
       AsyncStorage.setItem('Chat.'+this.state.text, JSON.stringify(this.state.source)).done()
-      this.refs.listView.scrollToEnd()
+      this._scrollToEnd()
       this._switchLanguage()
 	  return data
 	}).catch((error) => {
 	  console.error(error)
 	}).done()
+  }
+  
+  _scrollToEnd() {
+	setTimeout(() => {try {this.refs.listView.scrollToEnd()} catch (error) {}}, 100)
   }
   
   _switchLanguage() {
@@ -189,7 +195,7 @@ class AddConversation extends React.Component {
         <ScrollView style={{flex: 1, flexDirection: 'column'}}>
           <Text style={styles.spacer}></Text>
           <Text style={styles.label}>Name</Text>
-          <TextInput style={{margin: 20}} onChangeText={(textValue) => this.setState({text: textValue})} value={this.state.text} />
+          <TextInput style={{margin: 20}} autoFocus={true} onChangeText={(textValue) => this.setState({text: textValue})} value={this.state.text} />
           <Text style={styles.label}>Your Language</Text>
           <Picker style={{margin: 20}} selectedValue={this.state.language1} onValueChange={(itemValue, itemIndex) => this.setState({language1: itemValue})}>
             <Picker.Item label="English" value="en" />
@@ -236,7 +242,6 @@ class AddConversation extends React.Component {
         <View style={styles.buttonContainer}>
           <Button onPress={ () => this._saveConversations(goBack, state).done()} title="Add" />
         </View>
-        <KeyboardSpacer/>
       </View>
     );
   }

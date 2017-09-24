@@ -19,7 +19,7 @@ class ConversationList extends React.Component {
 	const {params = {}} = navigation.state;
 	return {
 	  title: 'Conversations',
-	  headerRight: <View style={{marginRight: 20, flexDirection: 'row'}}><Button title="About" onPress={() => params._showAbout()} /></View>
+	  headerRight: <View style={{marginRight: 20, flexDirection: 'row'}}><Button color='#ccc' title="About" onPress={() => params._showAbout()} /></View>
     }
   }
   
@@ -67,7 +67,7 @@ class ConversationList extends React.Component {
 	        <Text>
 	          {'  '}
 	        </Text>
-	        <Button onPress={() => {this._removeConversation(item.text, rowData.index)}} title="Delete" />
+	        <Button color='#aaa' onPress={() => {this._removeConversation(item.text, rowData.index)}} title="Delete" />
 	      </View>
 	    </TouchableHighlight>
 	  </View>

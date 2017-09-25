@@ -3351,8 +3351,8 @@
                     "startLine": 258,
                     "startColumn": 4,
                     "startOffset": 31534,
-                    "endColumn": 44,
-                    "endOffset": 31574
+                    "endColumn": 46,
+                    "endOffset": 31576
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\src\\main\\res\\values\\strings.xml",
@@ -3360,8 +3360,8 @@
                         "startLine": 1,
                         "startColumn": 4,
                         "startOffset": 16,
-                        "endColumn": 44,
-                        "endOffset": 56
+                        "endColumn": 46,
+                        "endOffset": 58
                     }
                 }
             },
@@ -3369,9 +3369,9 @@
                 "to": {
                     "startLine": 259,
                     "startColumn": 4,
-                    "startOffset": 31579,
+                    "startOffset": 31581,
                     "endColumn": 93,
-                    "endOffset": 31668
+                    "endOffset": 31670
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3388,9 +3388,9 @@
                 "to": {
                     "startLine": 260,
                     "startColumn": 4,
-                    "startOffset": 31673,
+                    "startOffset": 31675,
                     "endColumn": 102,
-                    "endOffset": 31771
+                    "endOffset": 31773
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3407,9 +3407,9 @@
                 "to": {
                     "startLine": 261,
                     "startColumn": 4,
-                    "startOffset": 31776,
+                    "startOffset": 31778,
                     "endColumn": 113,
-                    "endOffset": 31885
+                    "endOffset": 31887
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3426,9 +3426,9 @@
                 "to": {
                     "startLine": 262,
                     "startColumn": 4,
-                    "startOffset": 31890,
+                    "startOffset": 31892,
                     "endColumn": 106,
-                    "endOffset": 31992
+                    "endOffset": 31994
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3445,9 +3445,9 @@
                 "to": {
                     "startLine": 263,
                     "startColumn": 4,
-                    "startOffset": 31997,
+                    "startOffset": 31999,
                     "endColumn": 111,
-                    "endOffset": 32104
+                    "endOffset": 32106
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3464,9 +3464,9 @@
                 "to": {
                     "startLine": 264,
                     "startColumn": 4,
-                    "startOffset": 32109,
+                    "startOffset": 32111,
                     "endColumn": 102,
-                    "endOffset": 32207
+                    "endOffset": 32209
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3483,9 +3483,9 @@
                 "to": {
                     "startLine": 265,
                     "startColumn": 4,
-                    "startOffset": 32212,
+                    "startOffset": 32214,
                     "endColumn": 120,
-                    "endOffset": 32328
+                    "endOffset": 32330
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3502,9 +3502,9 @@
                 "to": {
                     "startLine": 266,
                     "startColumn": 4,
-                    "startOffset": 32333,
+                    "startOffset": 32335,
                     "endColumn": 125,
-                    "endOffset": 32454
+                    "endOffset": 32456
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3521,9 +3521,9 @@
                 "to": {
                     "startLine": 267,
                     "startColumn": 4,
-                    "startOffset": 32459,
+                    "startOffset": 32461,
                     "endColumn": 190,
-                    "endOffset": 32645
+                    "endOffset": 32647
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3540,9 +3540,9 @@
                 "to": {
                     "startLine": 268,
                     "startColumn": 4,
-                    "startOffset": 32650,
+                    "startOffset": 32652,
                     "endColumn": 107,
-                    "endOffset": 32753
+                    "endOffset": 32755
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3559,9 +3559,9 @@
                 "to": {
                     "startLine": 269,
                     "startColumn": 4,
-                    "startOffset": 32758,
+                    "startOffset": 32760,
                     "endColumn": 112,
-                    "endOffset": 32866
+                    "endOffset": 32868
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3578,9 +3578,9 @@
                 "to": {
                     "startLine": 270,
                     "startColumn": 4,
-                    "startOffset": 32871,
+                    "startOffset": 32873,
                     "endColumn": 112,
-                    "endOffset": 32979
+                    "endOffset": 32981
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3597,9 +3597,9 @@
                 "to": {
                     "startLine": 271,
                     "startColumn": 4,
-                    "startOffset": 32984,
+                    "startOffset": 32986,
                     "endColumn": 107,
-                    "endOffset": 33087
+                    "endOffset": 33089
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3616,9 +3616,9 @@
                 "to": {
                     "startLine": 272,
                     "startColumn": 4,
-                    "startOffset": 33092,
+                    "startOffset": 33094,
                     "endColumn": 111,
-                    "endOffset": 33199
+                    "endOffset": 33201
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3635,9 +3635,9 @@
                 "to": {
                     "startLine": 273,
                     "startColumn": 4,
-                    "startOffset": 33204,
+                    "startOffset": 33206,
                     "endColumn": 128,
-                    "endOffset": 33328
+                    "endOffset": 33330
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3654,9 +3654,9 @@
                 "to": {
                     "startLine": 274,
                     "startColumn": 4,
-                    "startOffset": 33333,
+                    "startOffset": 33335,
                     "endColumn": 110,
-                    "endOffset": 33439
+                    "endOffset": 33441
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3673,9 +3673,9 @@
                 "to": {
                     "startLine": 275,
                     "startColumn": 4,
-                    "startOffset": 33444,
+                    "startOffset": 33446,
                     "endColumn": 92,
-                    "endOffset": 33532
+                    "endOffset": 33534
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3692,9 +3692,9 @@
                 "to": {
                     "startLine": 276,
                     "startColumn": 4,
-                    "startOffset": 33537,
+                    "startOffset": 33539,
                     "endColumn": 131,
-                    "endOffset": 33664
+                    "endOffset": 33666
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3711,9 +3711,9 @@
                 "to": {
                     "startLine": 277,
                     "startColumn": 4,
-                    "startOffset": 33669,
+                    "startOffset": 33671,
                     "endColumn": 124,
-                    "endOffset": 33789
+                    "endOffset": 33791
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3730,9 +3730,9 @@
                 "to": {
                     "startLine": 278,
                     "startColumn": 4,
-                    "startOffset": 33794,
+                    "startOffset": 33796,
                     "endColumn": 97,
-                    "endOffset": 33887
+                    "endOffset": 33889
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3749,9 +3749,9 @@
                 "to": {
                     "startLine": 279,
                     "startColumn": 4,
-                    "startOffset": 33892,
+                    "startOffset": 33894,
                     "endColumn": 98,
-                    "endOffset": 33986
+                    "endOffset": 33988
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3768,9 +3768,9 @@
                 "to": {
                     "startLine": 280,
                     "startColumn": 4,
-                    "startOffset": 33991,
+                    "startOffset": 33993,
                     "endColumn": 113,
-                    "endOffset": 34100
+                    "endOffset": 34102
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3787,9 +3787,9 @@
                 "to": {
                     "startLine": 281,
                     "startColumn": 4,
-                    "startOffset": 34105,
+                    "startOffset": 34107,
                     "endColumn": 70,
-                    "endOffset": 34171
+                    "endOffset": 34173
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -3806,9 +3806,9 @@
                 "to": {
                     "startLine": 282,
                     "startColumn": 4,
-                    "startOffset": 34176,
+                    "startOffset": 34178,
                     "endColumn": 77,
-                    "endOffset": 34249
+                    "endOffset": 34251
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -3825,9 +3825,9 @@
                 "to": {
                     "startLine": 283,
                     "startColumn": 4,
-                    "startOffset": 34254,
+                    "startOffset": 34256,
                     "endColumn": 89,
-                    "endOffset": 34339
+                    "endOffset": 34341
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -3844,9 +3844,9 @@
                 "to": {
                     "startLine": 284,
                     "startColumn": 4,
-                    "startOffset": 34344,
+                    "startOffset": 34346,
                     "endColumn": 87,
-                    "endOffset": 34427
+                    "endOffset": 34429
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -3863,9 +3863,9 @@
                 "to": {
                     "startLine": 285,
                     "startColumn": 4,
-                    "startOffset": 34432,
+                    "startOffset": 34434,
                     "endColumn": 95,
-                    "endOffset": 34523
+                    "endOffset": 34525
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -3882,10 +3882,10 @@
                 "to": {
                     "startLine": 286,
                     "startColumn": 4,
-                    "startOffset": 34528,
+                    "startOffset": 34530,
                     "endLine": 289,
                     "endColumn": 10,
-                    "endOffset": 34771
+                    "endOffset": 34773
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -3903,10 +3903,10 @@
                 "to": {
                     "startLine": 290,
                     "startColumn": 4,
-                    "startOffset": 34776,
+                    "startOffset": 34778,
                     "endLine": 292,
                     "endColumn": 12,
-                    "endOffset": 34899
+                    "endOffset": 34901
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\src\\main\\res\\values\\styles.xml",
@@ -3924,10 +3924,10 @@
                 "to": {
                     "startLine": 293,
                     "startColumn": 4,
-                    "startOffset": 34904,
+                    "startOffset": 34906,
                     "endLine": 299,
                     "endColumn": 12,
-                    "endOffset": 35400
+                    "endOffset": 35402
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -3945,9 +3945,9 @@
                 "to": {
                     "startLine": 300,
                     "startColumn": 4,
-                    "startOffset": 35405,
+                    "startOffset": 35407,
                     "endColumn": 88,
-                    "endOffset": 35489
+                    "endOffset": 35491
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -3964,10 +3964,10 @@
                 "to": {
                     "startLine": 301,
                     "startColumn": 4,
-                    "startOffset": 35494,
+                    "startOffset": 35496,
                     "endLine": 304,
                     "endColumn": 12,
-                    "endOffset": 35736
+                    "endOffset": 35738
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -3985,10 +3985,10 @@
                 "to": {
                     "startLine": 305,
                     "startColumn": 4,
-                    "startOffset": 35741,
+                    "startOffset": 35743,
                     "endLine": 308,
                     "endColumn": 12,
-                    "endOffset": 36017
+                    "endOffset": 36019
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4006,10 +4006,10 @@
                 "to": {
                     "startLine": 309,
                     "startColumn": 4,
-                    "startOffset": 36022,
+                    "startOffset": 36024,
                     "endLine": 313,
                     "endColumn": 12,
-                    "endOffset": 36302
+                    "endOffset": 36304
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4027,10 +4027,10 @@
                 "to": {
                     "startLine": 314,
                     "startColumn": 4,
-                    "startOffset": 36307,
+                    "startOffset": 36309,
                     "endLine": 319,
                     "endColumn": 12,
-                    "endOffset": 36695
+                    "endOffset": 36697
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4048,10 +4048,10 @@
                 "to": {
                     "startLine": 320,
                     "startColumn": 4,
-                    "startOffset": 36700,
+                    "startOffset": 36702,
                     "endLine": 326,
                     "endColumn": 12,
-                    "endOffset": 37172
+                    "endOffset": 37174
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4069,10 +4069,10 @@
                 "to": {
                     "startLine": 327,
                     "startColumn": 4,
-                    "startOffset": 37177,
+                    "startOffset": 37179,
                     "endLine": 330,
                     "endColumn": 12,
-                    "endOffset": 37394
+                    "endOffset": 37396
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4090,10 +4090,10 @@
                 "to": {
                     "startLine": 331,
                     "startColumn": 4,
-                    "startOffset": 37399,
+                    "startOffset": 37401,
                     "endLine": 334,
                     "endColumn": 12,
-                    "endOffset": 37616
+                    "endOffset": 37618
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4111,10 +4111,10 @@
                 "to": {
                     "startLine": 335,
                     "startColumn": 4,
-                    "startOffset": 37621,
+                    "startOffset": 37623,
                     "endLine": 339,
                     "endColumn": 12,
-                    "endOffset": 37884
+                    "endOffset": 37886
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4132,10 +4132,10 @@
                 "to": {
                     "startLine": 340,
                     "startColumn": 4,
-                    "startOffset": 37889,
+                    "startOffset": 37891,
                     "endLine": 343,
                     "endColumn": 12,
-                    "endOffset": 38111
+                    "endOffset": 38113
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4153,10 +4153,10 @@
                 "to": {
                     "startLine": 344,
                     "startColumn": 4,
-                    "startOffset": 38116,
+                    "startOffset": 38118,
                     "endLine": 347,
                     "endColumn": 12,
-                    "endOffset": 38341
+                    "endOffset": 38343
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4174,10 +4174,10 @@
                 "to": {
                     "startLine": 348,
                     "startColumn": 4,
-                    "startOffset": 38346,
+                    "startOffset": 38348,
                     "endLine": 351,
                     "endColumn": 12,
-                    "endOffset": 38571
+                    "endOffset": 38573
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4195,10 +4195,10 @@
                 "to": {
                     "startLine": 352,
                     "startColumn": 4,
-                    "startOffset": 38576,
+                    "startOffset": 38578,
                     "endLine": 355,
                     "endColumn": 12,
-                    "endOffset": 38801
+                    "endOffset": 38803
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4216,10 +4216,10 @@
                 "to": {
                     "startLine": 356,
                     "startColumn": 4,
-                    "startOffset": 38806,
+                    "startOffset": 38808,
                     "endLine": 359,
                     "endColumn": 12,
-                    "endOffset": 39031
+                    "endOffset": 39033
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4237,10 +4237,10 @@
                 "to": {
                     "startLine": 360,
                     "startColumn": 4,
-                    "startOffset": 39036,
+                    "startOffset": 39038,
                     "endLine": 363,
                     "endColumn": 12,
-                    "endOffset": 39258
+                    "endOffset": 39260
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4258,10 +4258,10 @@
                 "to": {
                     "startLine": 364,
                     "startColumn": 4,
-                    "startOffset": 39263,
+                    "startOffset": 39265,
                     "endLine": 367,
                     "endColumn": 12,
-                    "endOffset": 39497
+                    "endOffset": 39499
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4279,10 +4279,10 @@
                 "to": {
                     "startLine": 368,
                     "startColumn": 4,
-                    "startOffset": 39502,
+                    "startOffset": 39504,
                     "endLine": 371,
                     "endColumn": 12,
-                    "endOffset": 39723
+                    "endOffset": 39725
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4300,10 +4300,10 @@
                 "to": {
                     "startLine": 372,
                     "startColumn": 4,
-                    "startOffset": 39728,
+                    "startOffset": 39730,
                     "endLine": 375,
                     "endColumn": 12,
-                    "endOffset": 39968
+                    "endOffset": 39970
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4321,10 +4321,10 @@
                 "to": {
                     "startLine": 376,
                     "startColumn": 4,
-                    "startOffset": 39973,
+                    "startOffset": 39975,
                     "endLine": 377,
                     "endColumn": 12,
-                    "endOffset": 40098
+                    "endOffset": 40100
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4342,10 +4342,10 @@
                 "to": {
                     "startLine": 378,
                     "startColumn": 4,
-                    "startOffset": 40103,
+                    "startOffset": 40105,
                     "endLine": 379,
                     "endColumn": 12,
-                    "endOffset": 40228
+                    "endOffset": 40230
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4363,10 +4363,10 @@
                 "to": {
                     "startLine": 380,
                     "startColumn": 4,
-                    "startOffset": 40233,
+                    "startOffset": 40235,
                     "endLine": 383,
                     "endColumn": 12,
-                    "endOffset": 40458
+                    "endOffset": 40460
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4384,10 +4384,10 @@
                 "to": {
                     "startLine": 384,
                     "startColumn": 4,
-                    "startOffset": 40463,
+                    "startOffset": 40465,
                     "endLine": 387,
                     "endColumn": 12,
-                    "endOffset": 40706
+                    "endOffset": 40708
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4405,10 +4405,10 @@
                 "to": {
                     "startLine": 388,
                     "startColumn": 4,
-                    "startOffset": 40711,
+                    "startOffset": 40713,
                     "endLine": 391,
                     "endColumn": 12,
-                    "endOffset": 40925
+                    "endOffset": 40927
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4426,10 +4426,10 @@
                 "to": {
                     "startLine": 392,
                     "startColumn": 4,
-                    "startOffset": 40930,
+                    "startOffset": 40932,
                     "endLine": 396,
                     "endColumn": 12,
-                    "endOffset": 41208
+                    "endOffset": 41210
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4447,10 +4447,10 @@
                 "to": {
                     "startLine": 397,
                     "startColumn": 4,
-                    "startOffset": 41213,
+                    "startOffset": 41215,
                     "endLine": 400,
                     "endColumn": 12,
-                    "endOffset": 41416
+                    "endOffset": 41418
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4468,10 +4468,10 @@
                 "to": {
                     "startLine": 401,
                     "startColumn": 4,
-                    "startOffset": 41421,
+                    "startOffset": 41423,
                     "endLine": 403,
                     "endColumn": 12,
-                    "endOffset": 41547
+                    "endOffset": 41549
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4489,10 +4489,10 @@
                 "to": {
                     "startLine": 404,
                     "startColumn": 4,
-                    "startOffset": 41552,
+                    "startOffset": 41554,
                     "endLine": 407,
                     "endColumn": 12,
-                    "endOffset": 41774
+                    "endOffset": 41776
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4510,10 +4510,10 @@
                 "to": {
                     "startLine": 408,
                     "startColumn": 4,
-                    "startOffset": 41779,
+                    "startOffset": 41781,
                     "endLine": 411,
                     "endColumn": 12,
-                    "endOffset": 42020
+                    "endOffset": 42022
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4531,10 +4531,10 @@
                 "to": {
                     "startLine": 412,
                     "startColumn": 4,
-                    "startOffset": 42025,
+                    "startOffset": 42027,
                     "endLine": 415,
                     "endColumn": 12,
-                    "endOffset": 42245
+                    "endOffset": 42247
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4552,10 +4552,10 @@
                 "to": {
                     "startLine": 416,
                     "startColumn": 4,
-                    "startOffset": 42250,
+                    "startOffset": 42252,
                     "endLine": 419,
                     "endColumn": 12,
-                    "endOffset": 42492
+                    "endOffset": 42494
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4573,10 +4573,10 @@
                 "to": {
                     "startLine": 420,
                     "startColumn": 4,
-                    "startOffset": 42497,
+                    "startOffset": 42499,
                     "endLine": 423,
                     "endColumn": 12,
-                    "endOffset": 42713
+                    "endOffset": 42715
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4594,10 +4594,10 @@
                 "to": {
                     "startLine": 424,
                     "startColumn": 4,
-                    "startOffset": 42718,
+                    "startOffset": 42720,
                     "endLine": 427,
                     "endColumn": 12,
-                    "endOffset": 42958
+                    "endOffset": 42960
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4615,10 +4615,10 @@
                 "to": {
                     "startLine": 428,
                     "startColumn": 4,
-                    "startOffset": 42963,
+                    "startOffset": 42965,
                     "endLine": 431,
                     "endColumn": 12,
-                    "endOffset": 43232
+                    "endOffset": 43234
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4636,10 +4636,10 @@
                 "to": {
                     "startLine": 432,
                     "startColumn": 4,
-                    "startOffset": 43237,
+                    "startOffset": 43239,
                     "endLine": 435,
                     "endColumn": 12,
-                    "endOffset": 43533
+                    "endOffset": 43535
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4657,10 +4657,10 @@
                 "to": {
                     "startLine": 436,
                     "startColumn": 4,
-                    "startOffset": 43538,
+                    "startOffset": 43540,
                     "endLine": 439,
                     "endColumn": 12,
-                    "endOffset": 43857
+                    "endOffset": 43859
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4678,10 +4678,10 @@
                 "to": {
                     "startLine": 440,
                     "startColumn": 4,
-                    "startOffset": 43862,
+                    "startOffset": 43864,
                     "endLine": 443,
                     "endColumn": 12,
-                    "endOffset": 44148
+                    "endOffset": 44150
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4699,10 +4699,10 @@
                 "to": {
                     "startLine": 444,
                     "startColumn": 4,
-                    "startOffset": 44153,
+                    "startOffset": 44155,
                     "endLine": 447,
                     "endColumn": 12,
-                    "endOffset": 44462
+                    "endOffset": 44464
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4720,9 +4720,9 @@
                 "to": {
                     "startLine": 448,
                     "startColumn": 4,
-                    "startOffset": 44467,
+                    "startOffset": 44469,
                     "endColumn": 136,
-                    "endOffset": 44599
+                    "endOffset": 44601
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4739,9 +4739,9 @@
                 "to": {
                     "startLine": 449,
                     "startColumn": 4,
-                    "startOffset": 44604,
+                    "startOffset": 44606,
                     "endColumn": 130,
-                    "endOffset": 44730
+                    "endOffset": 44732
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4758,9 +4758,9 @@
                 "to": {
                     "startLine": 450,
                     "startColumn": 4,
-                    "startOffset": 44735,
+                    "startOffset": 44737,
                     "endColumn": 104,
-                    "endOffset": 44835
+                    "endOffset": 44837
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4777,10 +4777,10 @@
                 "to": {
                     "startLine": 451,
                     "startColumn": 4,
-                    "startOffset": 44840,
+                    "startOffset": 44842,
                     "endLine": 453,
                     "endColumn": 12,
-                    "endOffset": 45039
+                    "endOffset": 45041
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4798,10 +4798,10 @@
                 "to": {
                     "startLine": 454,
                     "startColumn": 4,
-                    "startOffset": 45044,
+                    "startOffset": 45046,
                     "endLine": 456,
                     "endColumn": 12,
-                    "endOffset": 45247
+                    "endOffset": 45249
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4819,10 +4819,10 @@
                 "to": {
                     "startLine": 457,
                     "startColumn": 4,
-                    "startOffset": 45252,
+                    "startOffset": 45254,
                     "endLine": 458,
                     "endColumn": 12,
-                    "endOffset": 45371
+                    "endOffset": 45373
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4840,10 +4840,10 @@
                 "to": {
                     "startLine": 459,
                     "startColumn": 4,
-                    "startOffset": 45376,
+                    "startOffset": 45378,
                     "endLine": 460,
                     "endColumn": 12,
-                    "endOffset": 45495
+                    "endOffset": 45497
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4861,9 +4861,9 @@
                 "to": {
                     "startLine": 461,
                     "startColumn": 4,
-                    "startOffset": 45500,
+                    "startOffset": 45502,
                     "endColumn": 104,
-                    "endOffset": 45600
+                    "endOffset": 45602
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4880,9 +4880,9 @@
                 "to": {
                     "startLine": 462,
                     "startColumn": 4,
-                    "startOffset": 45605,
+                    "startOffset": 45607,
                     "endColumn": 116,
-                    "endOffset": 45717
+                    "endOffset": 45719
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4899,10 +4899,10 @@
                 "to": {
                     "startLine": 463,
                     "startColumn": 4,
-                    "startOffset": 45722,
+                    "startOffset": 45724,
                     "endLine": 465,
                     "endColumn": 12,
-                    "endOffset": 45931
+                    "endOffset": 45933
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4920,10 +4920,10 @@
                 "to": {
                     "startLine": 466,
                     "startColumn": 4,
-                    "startOffset": 45936,
+                    "startOffset": 45938,
                     "endLine": 467,
                     "endColumn": 12,
-                    "endOffset": 46077
+                    "endOffset": 46079
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4941,10 +4941,10 @@
                 "to": {
                     "startLine": 468,
                     "startColumn": 4,
-                    "startOffset": 46082,
+                    "startOffset": 46084,
                     "endLine": 469,
                     "endColumn": 12,
-                    "endOffset": 46217
+                    "endOffset": 46219
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4962,10 +4962,10 @@
                 "to": {
                     "startLine": 470,
                     "startColumn": 4,
-                    "startOffset": 46222,
+                    "startOffset": 46224,
                     "endLine": 471,
                     "endColumn": 12,
-                    "endOffset": 46303
+                    "endOffset": 46305
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -4983,10 +4983,10 @@
                 "to": {
                     "startLine": 472,
                     "startColumn": 4,
-                    "startOffset": 46308,
+                    "startOffset": 46310,
                     "endLine": 476,
                     "endColumn": 12,
-                    "endOffset": 46651
+                    "endOffset": 46653
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5004,9 +5004,9 @@
                 "to": {
                     "startLine": 477,
                     "startColumn": 4,
-                    "startOffset": 46656,
+                    "startOffset": 46658,
                     "endColumn": 87,
-                    "endOffset": 46739
+                    "endOffset": 46741
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5023,10 +5023,10 @@
                 "to": {
                     "startLine": 478,
                     "startColumn": 4,
-                    "startOffset": 46744,
+                    "startOffset": 46746,
                     "endLine": 481,
                     "endColumn": 12,
-                    "endOffset": 46969
+                    "endOffset": 46971
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5044,10 +5044,10 @@
                 "to": {
                     "startLine": 482,
                     "startColumn": 4,
-                    "startOffset": 46974,
+                    "startOffset": 46976,
                     "endLine": 487,
                     "endColumn": 12,
-                    "endOffset": 47371
+                    "endOffset": 47373
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5065,10 +5065,10 @@
                 "to": {
                     "startLine": 488,
                     "startColumn": 4,
-                    "startOffset": 47376,
+                    "startOffset": 47378,
                     "endLine": 491,
                     "endColumn": 12,
-                    "endOffset": 47604
+                    "endOffset": 47606
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5086,9 +5086,9 @@
                 "to": {
                     "startLine": 492,
                     "startColumn": 4,
-                    "startOffset": 47609,
+                    "startOffset": 47611,
                     "endColumn": 81,
-                    "endOffset": 47686
+                    "endOffset": 47688
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5105,10 +5105,10 @@
                 "to": {
                     "startLine": 493,
                     "startColumn": 4,
-                    "startOffset": 47691,
+                    "startOffset": 47693,
                     "endLine": 494,
                     "endColumn": 12,
-                    "endOffset": 47784
+                    "endOffset": 47786
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5126,10 +5126,10 @@
                 "to": {
                     "startLine": 495,
                     "startColumn": 4,
-                    "startOffset": 47789,
+                    "startOffset": 47791,
                     "endLine": 505,
                     "endColumn": 12,
-                    "endOffset": 48401
+                    "endOffset": 48403
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5147,9 +5147,9 @@
                 "to": {
                     "startLine": 506,
                     "startColumn": 4,
-                    "startOffset": 48406,
+                    "startOffset": 48408,
                     "endColumn": 99,
-                    "endOffset": 48501
+                    "endOffset": 48503
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5166,10 +5166,10 @@
                 "to": {
                     "startLine": 507,
                     "startColumn": 4,
-                    "startOffset": 48506,
+                    "startOffset": 48508,
                     "endLine": 510,
                     "endColumn": 12,
-                    "endOffset": 48737
+                    "endOffset": 48739
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5187,10 +5187,10 @@
                 "to": {
                     "startLine": 511,
                     "startColumn": 4,
-                    "startOffset": 48742,
+                    "startOffset": 48744,
                     "endLine": 516,
                     "endColumn": 12,
-                    "endOffset": 49145
+                    "endOffset": 49147
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5208,10 +5208,10 @@
                 "to": {
                     "startLine": 517,
                     "startColumn": 4,
-                    "startOffset": 49150,
+                    "startOffset": 49152,
                     "endLine": 520,
                     "endColumn": 12,
-                    "endOffset": 49384
+                    "endOffset": 49386
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5229,9 +5229,9 @@
                 "to": {
                     "startLine": 521,
                     "startColumn": 4,
-                    "startOffset": 49389,
+                    "startOffset": 49391,
                     "endColumn": 93,
-                    "endOffset": 49478
+                    "endOffset": 49480
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5248,9 +5248,9 @@
                 "to": {
                     "startLine": 522,
                     "startColumn": 4,
-                    "startOffset": 49483,
+                    "startOffset": 49485,
                     "endColumn": 88,
-                    "endOffset": 49567
+                    "endOffset": 49569
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5267,10 +5267,10 @@
                 "to": {
                     "startLine": 523,
                     "startColumn": 4,
-                    "startOffset": 49572,
+                    "startOffset": 49574,
                     "endLine": 526,
                     "endColumn": 12,
-                    "endOffset": 49804
+                    "endOffset": 49806
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5288,10 +5288,10 @@
                 "to": {
                     "startLine": 527,
                     "startColumn": 4,
-                    "startOffset": 49809,
+                    "startOffset": 49811,
                     "endLine": 552,
                     "endColumn": 12,
-                    "endOffset": 51755
+                    "endOffset": 51757
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5309,10 +5309,10 @@
                 "to": {
                     "startLine": 553,
                     "startColumn": 4,
-                    "startOffset": 51760,
+                    "startOffset": 51762,
                     "endLine": 556,
                     "endColumn": 12,
-                    "endOffset": 51997
+                    "endOffset": 51999
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5330,10 +5330,10 @@
                 "to": {
                     "startLine": 557,
                     "startColumn": 4,
-                    "startOffset": 52002,
+                    "startOffset": 52004,
                     "endLine": 583,
                     "endColumn": 12,
-                    "endOffset": 54079
+                    "endOffset": 54081
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5351,10 +5351,10 @@
                 "to": {
                     "startLine": 584,
                     "startColumn": 4,
-                    "startOffset": 54084,
+                    "startOffset": 54086,
                     "endLine": 731,
                     "endColumn": 12,
-                    "endOffset": 63506
+                    "endOffset": 63508
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5372,10 +5372,10 @@
                 "to": {
                     "startLine": 732,
                     "startColumn": 4,
-                    "startOffset": 63511,
+                    "startOffset": 63513,
                     "endLine": 753,
                     "endColumn": 12,
-                    "endOffset": 64773
+                    "endOffset": 64775
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5393,10 +5393,10 @@
                 "to": {
                     "startLine": 754,
                     "startColumn": 4,
-                    "startOffset": 64778,
+                    "startOffset": 64780,
                     "endLine": 901,
                     "endColumn": 12,
-                    "endOffset": 74310
+                    "endOffset": 74312
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5414,10 +5414,10 @@
                 "to": {
                     "startLine": 902,
                     "startColumn": 4,
-                    "startOffset": 74315,
+                    "startOffset": 74317,
                     "endLine": 923,
                     "endColumn": 12,
-                    "endOffset": 75591
+                    "endOffset": 75593
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5435,10 +5435,10 @@
                 "to": {
                     "startLine": 924,
                     "startColumn": 4,
-                    "startOffset": 75596,
+                    "startOffset": 75598,
                     "endLine": 930,
                     "endColumn": 12,
-                    "endOffset": 76127
+                    "endOffset": 76129
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5456,10 +5456,10 @@
                 "to": {
                     "startLine": 931,
                     "startColumn": 4,
-                    "startOffset": 76132,
+                    "startOffset": 76134,
                     "endLine": 935,
                     "endColumn": 12,
-                    "endOffset": 76457
+                    "endOffset": 76459
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5477,10 +5477,10 @@
                 "to": {
                     "startLine": 936,
                     "startColumn": 4,
-                    "startOffset": 76462,
+                    "startOffset": 76464,
                     "endLine": 956,
                     "endColumn": 12,
-                    "endOffset": 77580
+                    "endOffset": 77582
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5498,10 +5498,10 @@
                 "to": {
                     "startLine": 957,
                     "startColumn": 4,
-                    "startOffset": 77585,
+                    "startOffset": 77587,
                     "endLine": 961,
                     "endColumn": 12,
-                    "endOffset": 77836
+                    "endOffset": 77838
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5519,10 +5519,10 @@
                 "to": {
                     "startLine": 962,
                     "startColumn": 4,
-                    "startOffset": 77841,
+                    "startOffset": 77843,
                     "endLine": 966,
                     "endColumn": 12,
-                    "endOffset": 78072
+                    "endOffset": 78074
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5540,10 +5540,10 @@
                 "to": {
                     "startLine": 967,
                     "startColumn": 4,
-                    "startOffset": 78077,
+                    "startOffset": 78079,
                     "endLine": 976,
                     "endColumn": 12,
-                    "endOffset": 78619
+                    "endOffset": 78621
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5561,10 +5561,10 @@
                 "to": {
                     "startLine": 977,
                     "startColumn": 4,
-                    "startOffset": 78624,
+                    "startOffset": 78626,
                     "endLine": 985,
                     "endColumn": 12,
-                    "endOffset": 79113
+                    "endOffset": 79115
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5582,10 +5582,10 @@
                 "to": {
                     "startLine": 986,
                     "startColumn": 4,
-                    "startOffset": 79118,
+                    "startOffset": 79120,
                     "endLine": 996,
                     "endColumn": 12,
-                    "endOffset": 79786
+                    "endOffset": 79788
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5603,10 +5603,10 @@
                 "to": {
                     "startLine": 997,
                     "startColumn": 4,
-                    "startOffset": 79791,
+                    "startOffset": 79793,
                     "endLine": 999,
                     "endColumn": 12,
-                    "endOffset": 79934
+                    "endOffset": 79936
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5624,10 +5624,10 @@
                 "to": {
                     "startLine": 1000,
                     "startColumn": 4,
-                    "startOffset": 79939,
+                    "startOffset": 79941,
                     "endLine": 1006,
                     "endColumn": 12,
-                    "endOffset": 80462
+                    "endOffset": 80464
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5645,10 +5645,10 @@
                 "to": {
                     "startLine": 1007,
                     "startColumn": 4,
-                    "startOffset": 80467,
+                    "startOffset": 80469,
                     "endLine": 1014,
                     "endColumn": 12,
-                    "endOffset": 81026
+                    "endOffset": 81028
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5666,10 +5666,10 @@
                 "to": {
                     "startLine": 1015,
                     "startColumn": 4,
-                    "startOffset": 81031,
+                    "startOffset": 81033,
                     "endLine": 1021,
                     "endColumn": 12,
-                    "endOffset": 81401
+                    "endOffset": 81403
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5687,9 +5687,9 @@
                 "to": {
                     "startLine": 1022,
                     "startColumn": 4,
-                    "startOffset": 81406,
+                    "startOffset": 81408,
                     "endColumn": 117,
-                    "endOffset": 81519
+                    "endOffset": 81521
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5706,10 +5706,10 @@
                 "to": {
                     "startLine": 1023,
                     "startColumn": 4,
-                    "startOffset": 81524,
+                    "startOffset": 81526,
                     "endLine": 1031,
                     "endColumn": 12,
-                    "endOffset": 82057
+                    "endOffset": 82059
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5727,10 +5727,10 @@
                 "to": {
                     "startLine": 1032,
                     "startColumn": 4,
-                    "startOffset": 82062,
+                    "startOffset": 82064,
                     "endLine": 1034,
                     "endColumn": 12,
-                    "endOffset": 82214
+                    "endOffset": 82216
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5748,10 +5748,10 @@
                 "to": {
                     "startLine": 1035,
                     "startColumn": 4,
-                    "startOffset": 82219,
+                    "startOffset": 82221,
                     "endLine": 1037,
                     "endColumn": 12,
-                    "endOffset": 82358
+                    "endOffset": 82360
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5769,10 +5769,10 @@
                 "to": {
                     "startLine": 1038,
                     "startColumn": 4,
-                    "startOffset": 82363,
+                    "startOffset": 82365,
                     "endLine": 1042,
                     "endColumn": 12,
-                    "endOffset": 82678
+                    "endOffset": 82680
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5790,10 +5790,10 @@
                 "to": {
                     "startLine": 1043,
                     "startColumn": 4,
-                    "startOffset": 82683,
+                    "startOffset": 82685,
                     "endLine": 1046,
                     "endColumn": 12,
-                    "endOffset": 82934
+                    "endOffset": 82936
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5811,10 +5811,10 @@
                 "to": {
                     "startLine": 1047,
                     "startColumn": 4,
-                    "startOffset": 82939,
+                    "startOffset": 82941,
                     "endLine": 1050,
                     "endColumn": 12,
-                    "endOffset": 83104
+                    "endOffset": 83106
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5832,10 +5832,10 @@
                 "to": {
                     "startLine": 1051,
                     "startColumn": 4,
-                    "startOffset": 83109,
+                    "startOffset": 83111,
                     "endLine": 1053,
                     "endColumn": 12,
-                    "endOffset": 83245
+                    "endOffset": 83247
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5853,9 +5853,9 @@
                 "to": {
                     "startLine": 1054,
                     "startColumn": 4,
-                    "startOffset": 83250,
+                    "startOffset": 83252,
                     "endColumn": 63,
-                    "endOffset": 83309
+                    "endOffset": 83311
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5872,10 +5872,10 @@
                 "to": {
                     "startLine": 1055,
                     "startColumn": 4,
-                    "startOffset": 83314,
+                    "startOffset": 83316,
                     "endLine": 1058,
                     "endColumn": 12,
-                    "endOffset": 83591
+                    "endOffset": 83593
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5893,10 +5893,10 @@
                 "to": {
                     "startLine": 1059,
                     "startColumn": 4,
-                    "startOffset": 83596,
+                    "startOffset": 83598,
                     "endLine": 1062,
                     "endColumn": 12,
-                    "endOffset": 83877
+                    "endOffset": 83879
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5914,10 +5914,10 @@
                 "to": {
                     "startLine": 1063,
                     "startColumn": 4,
-                    "startOffset": 83882,
+                    "startOffset": 83884,
                     "endLine": 1070,
                     "endColumn": 12,
-                    "endOffset": 84419
+                    "endOffset": 84421
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5935,10 +5935,10 @@
                 "to": {
                     "startLine": 1071,
                     "startColumn": 4,
-                    "startOffset": 84424,
+                    "startOffset": 84426,
                     "endLine": 1075,
                     "endColumn": 12,
-                    "endOffset": 84683
+                    "endOffset": 84685
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5956,10 +5956,10 @@
                 "to": {
                     "startLine": 1076,
                     "startColumn": 4,
-                    "startOffset": 84688,
+                    "startOffset": 84690,
                     "endLine": 1082,
                     "endColumn": 12,
-                    "endOffset": 85021
+                    "endOffset": 85023
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5977,10 +5977,10 @@
                 "to": {
                     "startLine": 1083,
                     "startColumn": 4,
-                    "startOffset": 85026,
+                    "startOffset": 85028,
                     "endLine": 1088,
                     "endColumn": 12,
-                    "endOffset": 85374
+                    "endOffset": 85376
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -5998,9 +5998,9 @@
                 "to": {
                     "startLine": 1089,
                     "startColumn": 4,
-                    "startOffset": 85379,
+                    "startOffset": 85381,
                     "endColumn": 93,
-                    "endOffset": 85468
+                    "endOffset": 85470
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6017,10 +6017,10 @@
                 "to": {
                     "startLine": 1090,
                     "startColumn": 4,
-                    "startOffset": 85473,
+                    "startOffset": 85475,
                     "endLine": 1093,
                     "endColumn": 12,
-                    "endOffset": 85774
+                    "endOffset": 85776
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6038,10 +6038,10 @@
                 "to": {
                     "startLine": 1094,
                     "startColumn": 4,
-                    "startOffset": 85779,
+                    "startOffset": 85781,
                     "endLine": 1098,
                     "endColumn": 12,
-                    "endOffset": 86036
+                    "endOffset": 86038
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6059,10 +6059,10 @@
                 "to": {
                     "startLine": 1099,
                     "startColumn": 4,
-                    "startOffset": 86041,
+                    "startOffset": 86043,
                     "endLine": 1100,
                     "endColumn": 12,
-                    "endOffset": 86161
+                    "endOffset": 86163
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6080,10 +6080,10 @@
                 "to": {
                     "startLine": 1101,
                     "startColumn": 4,
-                    "startOffset": 86166,
+                    "startOffset": 86168,
                     "endLine": 1102,
                     "endColumn": 12,
-                    "endOffset": 86288
+                    "endOffset": 86290
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6101,10 +6101,10 @@
                 "to": {
                     "startLine": 1103,
                     "startColumn": 4,
-                    "startOffset": 86293,
+                    "startOffset": 86295,
                     "endLine": 1105,
                     "endColumn": 12,
-                    "endOffset": 86527
+                    "endOffset": 86529
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6122,10 +6122,10 @@
                 "to": {
                     "startLine": 1106,
                     "startColumn": 4,
-                    "startOffset": 86532,
+                    "startOffset": 86534,
                     "endLine": 1108,
                     "endColumn": 12,
-                    "endOffset": 86738
+                    "endOffset": 86740
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6143,10 +6143,10 @@
                 "to": {
                     "startLine": 1109,
                     "startColumn": 4,
-                    "startOffset": 86743,
+                    "startOffset": 86745,
                     "endLine": 1110,
                     "endColumn": 12,
-                    "endOffset": 86857
+                    "endOffset": 86859
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6164,10 +6164,10 @@
                 "to": {
                     "startLine": 1111,
                     "startColumn": 4,
-                    "startOffset": 86862,
+                    "startOffset": 86864,
                     "endLine": 1114,
                     "endColumn": 12,
-                    "endOffset": 87050
+                    "endOffset": 87052
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6185,10 +6185,10 @@
                 "to": {
                     "startLine": 1115,
                     "startColumn": 4,
-                    "startOffset": 87055,
+                    "startOffset": 87057,
                     "endLine": 1121,
                     "endColumn": 12,
-                    "endOffset": 87505
+                    "endOffset": 87507
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6206,10 +6206,10 @@
                 "to": {
                     "startLine": 1122,
                     "startColumn": 4,
-                    "startOffset": 87510,
+                    "startOffset": 87512,
                     "endLine": 1124,
                     "endColumn": 12,
-                    "endOffset": 87686
+                    "endOffset": 87688
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6227,10 +6227,10 @@
                 "to": {
                     "startLine": 1125,
                     "startColumn": 4,
-                    "startOffset": 87691,
+                    "startOffset": 87693,
                     "endLine": 1127,
                     "endColumn": 12,
-                    "endOffset": 87808
+                    "endOffset": 87810
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6248,10 +6248,10 @@
                 "to": {
                     "startLine": 1128,
                     "startColumn": 4,
-                    "startOffset": 87813,
+                    "startOffset": 87815,
                     "endLine": 1131,
                     "endColumn": 12,
-                    "endOffset": 88067
+                    "endOffset": 88069
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6269,10 +6269,10 @@
                 "to": {
                     "startLine": 1132,
                     "startColumn": 4,
-                    "startOffset": 88072,
+                    "startOffset": 88074,
                     "endLine": 1133,
                     "endColumn": 12,
-                    "endOffset": 88180
+                    "endOffset": 88182
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6290,10 +6290,10 @@
                 "to": {
                     "startLine": 1134,
                     "startColumn": 4,
-                    "startOffset": 88185,
+                    "startOffset": 88187,
                     "endLine": 1137,
                     "endColumn": 12,
-                    "endOffset": 88367
+                    "endOffset": 88369
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6311,10 +6311,10 @@
                 "to": {
                     "startLine": 1138,
                     "startColumn": 4,
-                    "startOffset": 88372,
+                    "startOffset": 88374,
                     "endLine": 1139,
                     "endColumn": 12,
-                    "endOffset": 88469
+                    "endOffset": 88471
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6332,10 +6332,10 @@
                 "to": {
                     "startLine": 1140,
                     "startColumn": 4,
-                    "startOffset": 88474,
+                    "startOffset": 88476,
                     "endLine": 1145,
                     "endColumn": 12,
-                    "endOffset": 88913
+                    "endOffset": 88915
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6353,10 +6353,10 @@
                 "to": {
                     "startLine": 1146,
                     "startColumn": 4,
-                    "startOffset": 88918,
+                    "startOffset": 88920,
                     "endLine": 1147,
                     "endColumn": 12,
-                    "endOffset": 89037
+                    "endOffset": 89039
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6374,10 +6374,10 @@
                 "to": {
                     "startLine": 1148,
                     "startColumn": 4,
-                    "startOffset": 89042,
+                    "startOffset": 89044,
                     "endLine": 1151,
                     "endColumn": 12,
-                    "endOffset": 89322
+                    "endOffset": 89324
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6395,10 +6395,10 @@
                 "to": {
                     "startLine": 1152,
                     "startColumn": 4,
-                    "startOffset": 89327,
+                    "startOffset": 89329,
                     "endLine": 1163,
                     "endColumn": 12,
-                    "endOffset": 90209
+                    "endOffset": 90211
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6416,10 +6416,10 @@
                 "to": {
                     "startLine": 1164,
                     "startColumn": 4,
-                    "startOffset": 90214,
+                    "startOffset": 90216,
                     "endLine": 1169,
                     "endColumn": 12,
-                    "endOffset": 90503
+                    "endOffset": 90505
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6437,10 +6437,10 @@
                 "to": {
                     "startLine": 1170,
                     "startColumn": 4,
-                    "startOffset": 90508,
+                    "startOffset": 90510,
                     "endLine": 1180,
                     "endColumn": 12,
-                    "endOffset": 91235
+                    "endOffset": 91237
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6458,10 +6458,10 @@
                 "to": {
                     "startLine": 1181,
                     "startColumn": 4,
-                    "startOffset": 91240,
+                    "startOffset": 91242,
                     "endLine": 1183,
                     "endColumn": 12,
-                    "endOffset": 91407
+                    "endOffset": 91409
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6479,10 +6479,10 @@
                 "to": {
                     "startLine": 1184,
                     "startColumn": 4,
-                    "startOffset": 91412,
+                    "startOffset": 91414,
                     "endLine": 1188,
                     "endColumn": 12,
-                    "endOffset": 91743
+                    "endOffset": 91745
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6500,10 +6500,10 @@
                 "to": {
                     "startLine": 1189,
                     "startColumn": 4,
-                    "startOffset": 91748,
+                    "startOffset": 91750,
                     "endLine": 1200,
                     "endColumn": 12,
-                    "endOffset": 92610
+                    "endOffset": 92612
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6521,10 +6521,10 @@
                 "to": {
                     "startLine": 1201,
                     "startColumn": 4,
-                    "startOffset": 92615,
+                    "startOffset": 92617,
                     "endLine": 1205,
                     "endColumn": 12,
-                    "endOffset": 92888
+                    "endOffset": 92890
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6542,10 +6542,10 @@
                 "to": {
                     "startLine": 1206,
                     "startColumn": 4,
-                    "startOffset": 92893,
+                    "startOffset": 92895,
                     "endLine": 1208,
                     "endColumn": 12,
-                    "endOffset": 93091
+                    "endOffset": 93093
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -6563,10 +6563,10 @@
                 "to": {
                     "startLine": 1209,
                     "startColumn": 4,
-                    "startOffset": 93096,
+                    "startOffset": 93098,
                     "endLine": 1211,
                     "endColumn": 12,
-                    "endOffset": 93282
+                    "endOffset": 93284
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -6584,10 +6584,10 @@
                 "to": {
                     "startLine": 1212,
                     "startColumn": 4,
-                    "startOffset": 93287,
+                    "startOffset": 93289,
                     "endLine": 1215,
                     "endColumn": 10,
-                    "endOffset": 93466
+                    "endOffset": 93468
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -6605,10 +6605,10 @@
                 "to": {
                     "startLine": 1216,
                     "startColumn": 4,
-                    "startOffset": 93471,
+                    "startOffset": 93473,
                     "endLine": 1219,
                     "endColumn": 10,
-                    "endOffset": 93654
+                    "endOffset": 93656
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -6626,10 +6626,10 @@
                 "to": {
                     "startLine": 1220,
                     "startColumn": 4,
-                    "startOffset": 93659,
+                    "startOffset": 93661,
                     "endLine": 1257,
                     "endColumn": 12,
-                    "endOffset": 96516
+                    "endOffset": 96518
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6647,10 +6647,10 @@
                 "to": {
                     "startLine": 1258,
                     "startColumn": 4,
-                    "startOffset": 96521,
+                    "startOffset": 96523,
                     "endLine": 1296,
                     "endColumn": 12,
-                    "endOffset": 99518
+                    "endOffset": 99520
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6668,9 +6668,9 @@
                 "to": {
                     "startLine": 1297,
                     "startColumn": 4,
-                    "startOffset": 99523,
+                    "startOffset": 99525,
                     "endColumn": 61,
-                    "endOffset": 99580
+                    "endOffset": 99582
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6687,10 +6687,10 @@
                 "to": {
                     "startLine": 1298,
                     "startColumn": 4,
-                    "startOffset": 99585,
+                    "startOffset": 99587,
                     "endLine": 1307,
                     "endColumn": 12,
-                    "endOffset": 100210
+                    "endOffset": 100212
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6708,10 +6708,10 @@
                 "to": {
                     "startLine": 1308,
                     "startColumn": 4,
-                    "startOffset": 100215,
+                    "startOffset": 100217,
                     "endLine": 1316,
                     "endColumn": 12,
-                    "endOffset": 100824
+                    "endOffset": 100826
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6729,9 +6729,9 @@
                 "to": {
                     "startLine": 1317,
                     "startColumn": 4,
-                    "startOffset": 100829,
+                    "startOffset": 100831,
                     "endColumn": 85,
-                    "endOffset": 100910
+                    "endOffset": 100912
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6748,10 +6748,10 @@
                 "to": {
                     "startLine": 1318,
                     "startColumn": 4,
-                    "startOffset": 100915,
+                    "startOffset": 100917,
                     "endLine": 1319,
                     "endColumn": 12,
-                    "endOffset": 101023
+                    "endOffset": 101025
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6769,10 +6769,10 @@
                 "to": {
                     "startLine": 1320,
                     "startColumn": 4,
-                    "startOffset": 101028,
+                    "startOffset": 101030,
                     "endLine": 1323,
                     "endColumn": 12,
-                    "endOffset": 101252
+                    "endOffset": 101254
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6790,10 +6790,10 @@
                 "to": {
                     "startLine": 1324,
                     "startColumn": 4,
-                    "startOffset": 101257,
+                    "startOffset": 101259,
                     "endLine": 1327,
                     "endColumn": 12,
-                    "endOffset": 101590
+                    "endOffset": 101592
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6811,10 +6811,10 @@
                 "to": {
                     "startLine": 1328,
                     "startColumn": 4,
-                    "startOffset": 101595,
+                    "startOffset": 101597,
                     "endLine": 1330,
                     "endColumn": 12,
-                    "endOffset": 101750
+                    "endOffset": 101752
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6832,10 +6832,10 @@
                 "to": {
                     "startLine": 1331,
                     "startColumn": 4,
-                    "startOffset": 101755,
+                    "startOffset": 101757,
                     "endLine": 1333,
                     "endColumn": 12,
-                    "endOffset": 101902
+                    "endOffset": 101904
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6853,10 +6853,10 @@
                 "to": {
                     "startLine": 1334,
                     "startColumn": 4,
-                    "startOffset": 101907,
+                    "startOffset": 101909,
                     "endLine": 1336,
                     "endColumn": 12,
-                    "endOffset": 102073
+                    "endOffset": 102075
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6874,10 +6874,10 @@
                 "to": {
                     "startLine": 1337,
                     "startColumn": 4,
-                    "startOffset": 102078,
+                    "startOffset": 102080,
                     "endLine": 1339,
                     "endColumn": 12,
-                    "endOffset": 102240
+                    "endOffset": 102242
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6895,10 +6895,10 @@
                 "to": {
                     "startLine": 1340,
                     "startColumn": 4,
-                    "startOffset": 102245,
+                    "startOffset": 102247,
                     "endLine": 1343,
                     "endColumn": 12,
-                    "endOffset": 102483
+                    "endOffset": 102485
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6916,10 +6916,10 @@
                 "to": {
                     "startLine": 1344,
                     "startColumn": 4,
-                    "startOffset": 102488,
+                    "startOffset": 102490,
                     "endLine": 1346,
                     "endColumn": 12,
-                    "endOffset": 102653
+                    "endOffset": 102655
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6937,10 +6937,10 @@
                 "to": {
                     "startLine": 1347,
                     "startColumn": 4,
-                    "startOffset": 102658,
+                    "startOffset": 102660,
                     "endLine": 1349,
                     "endColumn": 12,
-                    "endOffset": 102826
+                    "endOffset": 102828
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6958,10 +6958,10 @@
                 "to": {
                     "startLine": 1350,
                     "startColumn": 4,
-                    "startOffset": 102831,
+                    "startOffset": 102833,
                     "endLine": 1352,
                     "endColumn": 12,
-                    "endOffset": 102997
+                    "endOffset": 102999
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -6979,10 +6979,10 @@
                 "to": {
                     "startLine": 1353,
                     "startColumn": 4,
-                    "startOffset": 103002,
+                    "startOffset": 103004,
                     "endLine": 1356,
                     "endColumn": 12,
-                    "endOffset": 103271
+                    "endOffset": 103273
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7000,10 +7000,10 @@
                 "to": {
                     "startLine": 1357,
                     "startColumn": 4,
-                    "startOffset": 103276,
+                    "startOffset": 103278,
                     "endLine": 1359,
                     "endColumn": 12,
-                    "endOffset": 103470
+                    "endOffset": 103472
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7021,10 +7021,10 @@
                 "to": {
                     "startLine": 1360,
                     "startColumn": 4,
-                    "startOffset": 103475,
+                    "startOffset": 103477,
                     "endLine": 1362,
                     "endColumn": 12,
-                    "endOffset": 103671
+                    "endOffset": 103673
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -7042,10 +7042,10 @@
                 "to": {
                     "startLine": 1363,
                     "startColumn": 4,
-                    "startOffset": 103676,
+                    "startOffset": 103678,
                     "endLine": 1365,
                     "endColumn": 12,
-                    "endOffset": 103860
+                    "endOffset": 103862
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -7063,9 +7063,9 @@
                 "to": {
                     "startLine": 1366,
                     "startColumn": 4,
-                    "startOffset": 103865,
+                    "startOffset": 103867,
                     "endColumn": 83,
-                    "endOffset": 103944
+                    "endOffset": 103946
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7082,9 +7082,9 @@
                 "to": {
                     "startLine": 1367,
                     "startColumn": 4,
-                    "startOffset": 103949,
+                    "startOffset": 103951,
                     "endColumn": 95,
-                    "endOffset": 104040
+                    "endOffset": 104042
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7101,9 +7101,9 @@
                 "to": {
                     "startLine": 1368,
                     "startColumn": 4,
-                    "startOffset": 104045,
+                    "startOffset": 104047,
                     "endColumn": 95,
-                    "endOffset": 104136
+                    "endOffset": 104138
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7120,9 +7120,9 @@
                 "to": {
                     "startLine": 1369,
                     "startColumn": 4,
-                    "startOffset": 104141,
+                    "startOffset": 104143,
                     "endColumn": 97,
-                    "endOffset": 104234
+                    "endOffset": 104236
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7139,9 +7139,9 @@
                 "to": {
                     "startLine": 1370,
                     "startColumn": 4,
-                    "startOffset": 104239,
+                    "startOffset": 104241,
                     "endColumn": 99,
-                    "endOffset": 104334
+                    "endOffset": 104336
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7158,9 +7158,9 @@
                 "to": {
                     "startLine": 1371,
                     "startColumn": 4,
-                    "startOffset": 104339,
+                    "startOffset": 104341,
                     "endColumn": 101,
-                    "endOffset": 104436
+                    "endOffset": 104438
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7177,9 +7177,9 @@
                 "to": {
                     "startLine": 1372,
                     "startColumn": 4,
-                    "startOffset": 104441,
+                    "startOffset": 104443,
                     "endColumn": 101,
-                    "endOffset": 104538
+                    "endOffset": 104540
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7196,9 +7196,9 @@
                 "to": {
                     "startLine": 1373,
                     "startColumn": 4,
-                    "startOffset": 104543,
+                    "startOffset": 104545,
                     "endColumn": 101,
-                    "endOffset": 104640
+                    "endOffset": 104642
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7215,9 +7215,9 @@
                 "to": {
                     "startLine": 1374,
                     "startColumn": 4,
-                    "startOffset": 104645,
+                    "startOffset": 104647,
                     "endColumn": 101,
-                    "endOffset": 104742
+                    "endOffset": 104744
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7234,9 +7234,9 @@
                 "to": {
                     "startLine": 1375,
                     "startColumn": 4,
-                    "startOffset": 104747,
+                    "startOffset": 104749,
                     "endColumn": 101,
-                    "endOffset": 104844
+                    "endOffset": 104846
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7253,9 +7253,9 @@
                 "to": {
                     "startLine": 1376,
                     "startColumn": 4,
-                    "startOffset": 104849,
+                    "startOffset": 104851,
                     "endColumn": 99,
-                    "endOffset": 104944
+                    "endOffset": 104946
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7272,9 +7272,9 @@
                 "to": {
                     "startLine": 1377,
                     "startColumn": 4,
-                    "startOffset": 104949,
+                    "startOffset": 104951,
                     "endColumn": 95,
-                    "endOffset": 105040
+                    "endOffset": 105042
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7291,9 +7291,9 @@
                 "to": {
                     "startLine": 1378,
                     "startColumn": 4,
-                    "startOffset": 105045,
+                    "startOffset": 105047,
                     "endColumn": 111,
-                    "endOffset": 105152
+                    "endOffset": 105154
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7310,9 +7310,9 @@
                 "to": {
                     "startLine": 1379,
                     "startColumn": 4,
-                    "startOffset": 105157,
+                    "startOffset": 105159,
                     "endColumn": 128,
-                    "endOffset": 105281
+                    "endOffset": 105283
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7329,9 +7329,9 @@
                 "to": {
                     "startLine": 1380,
                     "startColumn": 4,
-                    "startOffset": 105286,
+                    "startOffset": 105288,
                     "endColumn": 122,
-                    "endOffset": 105404
+                    "endOffset": 105406
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7348,10 +7348,10 @@
                 "to": {
                     "startLine": 1381,
                     "startColumn": 4,
-                    "startOffset": 105409,
+                    "startOffset": 105411,
                     "endLine": 1382,
                     "endColumn": 12,
-                    "endOffset": 105558
+                    "endOffset": 105560
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7369,10 +7369,10 @@
                 "to": {
                     "startLine": 1383,
                     "startColumn": 4,
-                    "startOffset": 105563,
+                    "startOffset": 105565,
                     "endLine": 1384,
                     "endColumn": 12,
-                    "endOffset": 105712
+                    "endOffset": 105714
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7390,9 +7390,9 @@
                 "to": {
                     "startLine": 1385,
                     "startColumn": 4,
-                    "startOffset": 105717,
+                    "startOffset": 105719,
                     "endColumn": 97,
-                    "endOffset": 105810
+                    "endOffset": 105812
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7409,9 +7409,9 @@
                 "to": {
                     "startLine": 1386,
                     "startColumn": 4,
-                    "startOffset": 105815,
+                    "startOffset": 105817,
                     "endColumn": 113,
-                    "endOffset": 105924
+                    "endOffset": 105926
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7428,9 +7428,9 @@
                 "to": {
                     "startLine": 1387,
                     "startColumn": 4,
-                    "startOffset": 105929,
+                    "startOffset": 105931,
                     "endColumn": 93,
-                    "endOffset": 106018
+                    "endOffset": 106020
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7447,10 +7447,10 @@
                 "to": {
                     "startLine": 1388,
                     "startColumn": 4,
-                    "startOffset": 106023,
+                    "startOffset": 106025,
                     "endLine": 1389,
                     "endColumn": 12,
-                    "endOffset": 106158
+                    "endOffset": 106160
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7468,10 +7468,10 @@
                 "to": {
                     "startLine": 1390,
                     "startColumn": 4,
-                    "startOffset": 106163,
+                    "startOffset": 106165,
                     "endLine": 1391,
                     "endColumn": 12,
-                    "endOffset": 106292
+                    "endOffset": 106294
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7489,9 +7489,9 @@
                 "to": {
                     "startLine": 1392,
                     "startColumn": 4,
-                    "startOffset": 106297,
+                    "startOffset": 106299,
                     "endColumn": 95,
-                    "endOffset": 106388
+                    "endOffset": 106390
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7508,9 +7508,9 @@
                 "to": {
                     "startLine": 1393,
                     "startColumn": 4,
-                    "startOffset": 106393,
+                    "startOffset": 106395,
                     "endColumn": 111,
-                    "endOffset": 106500
+                    "endOffset": 106502
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7527,9 +7527,9 @@
                 "to": {
                     "startLine": 1394,
                     "startColumn": 4,
-                    "startOffset": 106505,
+                    "startOffset": 106507,
                     "endColumn": 99,
-                    "endOffset": 106600
+                    "endOffset": 106602
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7546,9 +7546,9 @@
                 "to": {
                     "startLine": 1395,
                     "startColumn": 4,
-                    "startOffset": 106605,
+                    "startOffset": 106607,
                     "endColumn": 115,
-                    "endOffset": 106716
+                    "endOffset": 106718
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7565,9 +7565,9 @@
                 "to": {
                     "startLine": 1396,
                     "startColumn": 4,
-                    "startOffset": 106721,
+                    "startOffset": 106723,
                     "endColumn": 95,
-                    "endOffset": 106812
+                    "endOffset": 106814
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7584,9 +7584,9 @@
                 "to": {
                     "startLine": 1397,
                     "startColumn": 4,
-                    "startOffset": 106817,
+                    "startOffset": 106819,
                     "endColumn": 111,
-                    "endOffset": 106924
+                    "endOffset": 106926
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7603,10 +7603,10 @@
                 "to": {
                     "startLine": 1398,
                     "startColumn": 4,
-                    "startOffset": 106929,
+                    "startOffset": 106931,
                     "endLine": 1399,
                     "endColumn": 12,
-                    "endOffset": 107064
+                    "endOffset": 107066
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7624,9 +7624,9 @@
                 "to": {
                     "startLine": 1400,
                     "startColumn": 4,
-                    "startOffset": 107069,
+                    "startOffset": 107071,
                     "endColumn": 135,
-                    "endOffset": 107200
+                    "endOffset": 107202
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7643,10 +7643,10 @@
                 "to": {
                     "startLine": 1401,
                     "startColumn": 4,
-                    "startOffset": 107205,
+                    "startOffset": 107207,
                     "endLine": 1402,
                     "endColumn": 12,
-                    "endOffset": 107364
+                    "endOffset": 107366
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7664,9 +7664,9 @@
                 "to": {
                     "startLine": 1403,
                     "startColumn": 4,
-                    "startOffset": 107369,
+                    "startOffset": 107371,
                     "endColumn": 129,
-                    "endOffset": 107494
+                    "endOffset": 107496
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7683,10 +7683,10 @@
                 "to": {
                     "startLine": 1404,
                     "startColumn": 4,
-                    "startOffset": 107499,
+                    "startOffset": 107501,
                     "endLine": 1405,
                     "endColumn": 12,
-                    "endOffset": 107652
+                    "endOffset": 107654
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7704,10 +7704,10 @@
                 "to": {
                     "startLine": 1406,
                     "startColumn": 4,
-                    "startOffset": 107657,
+                    "startOffset": 107659,
                     "endLine": 1407,
                     "endColumn": 12,
-                    "endOffset": 107802
+                    "endOffset": 107804
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7725,9 +7725,9 @@
                 "to": {
                     "startLine": 1408,
                     "startColumn": 4,
-                    "startOffset": 107807,
+                    "startOffset": 107809,
                     "endColumn": 140,
-                    "endOffset": 107943
+                    "endOffset": 107945
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7744,10 +7744,10 @@
                 "to": {
                     "startLine": 1409,
                     "startColumn": 4,
-                    "startOffset": 107948,
+                    "startOffset": 107950,
                     "endLine": 1410,
                     "endColumn": 12,
-                    "endOffset": 108087
+                    "endOffset": 108089
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7765,9 +7765,9 @@
                 "to": {
                     "startLine": 1411,
                     "startColumn": 4,
-                    "startOffset": 108092,
+                    "startOffset": 108094,
                     "endColumn": 134,
-                    "endOffset": 108222
+                    "endOffset": 108224
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7784,9 +7784,9 @@
                 "to": {
                     "startLine": 1412,
                     "startColumn": 4,
-                    "startOffset": 108227,
+                    "startOffset": 108229,
                     "endColumn": 111,
-                    "endOffset": 108334
+                    "endOffset": 108336
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7803,9 +7803,9 @@
                 "to": {
                     "startLine": 1413,
                     "startColumn": 4,
-                    "startOffset": 108339,
+                    "startOffset": 108341,
                     "endColumn": 127,
-                    "endOffset": 108462
+                    "endOffset": 108464
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7822,10 +7822,10 @@
                 "to": {
                     "startLine": 1414,
                     "startColumn": 4,
-                    "startOffset": 108467,
+                    "startOffset": 108469,
                     "endLine": 1415,
                     "endColumn": 12,
-                    "endOffset": 108598
+                    "endOffset": 108600
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7843,10 +7843,10 @@
                 "to": {
                     "startLine": 1416,
                     "startColumn": 4,
-                    "startOffset": 108603,
+                    "startOffset": 108605,
                     "endLine": 1417,
                     "endColumn": 12,
-                    "endOffset": 108740
+                    "endOffset": 108742
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7864,10 +7864,10 @@
                 "to": {
                     "startLine": 1418,
                     "startColumn": 4,
-                    "startOffset": 108745,
+                    "startOffset": 108747,
                     "endLine": 1419,
                     "endColumn": 12,
-                    "endOffset": 108882
+                    "endOffset": 108884
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7885,9 +7885,9 @@
                 "to": {
                     "startLine": 1420,
                     "startColumn": 4,
-                    "startOffset": 108887,
+                    "startOffset": 108889,
                     "endColumn": 111,
-                    "endOffset": 108994
+                    "endOffset": 108996
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7904,9 +7904,9 @@
                 "to": {
                     "startLine": 1421,
                     "startColumn": 4,
-                    "startOffset": 108999,
+                    "startOffset": 109001,
                     "endColumn": 139,
-                    "endOffset": 109134
+                    "endOffset": 109136
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7923,9 +7923,9 @@
                 "to": {
                     "startLine": 1422,
                     "startColumn": 4,
-                    "startOffset": 109139,
+                    "startOffset": 109141,
                     "endColumn": 67,
-                    "endOffset": 109202
+                    "endOffset": 109204
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7942,9 +7942,9 @@
                 "to": {
                     "startLine": 1423,
                     "startColumn": 4,
-                    "startOffset": 109207,
+                    "startOffset": 109209,
                     "endColumn": 72,
-                    "endOffset": 109275
+                    "endOffset": 109277
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7961,9 +7961,9 @@
                 "to": {
                     "startLine": 1424,
                     "startColumn": 4,
-                    "startOffset": 109280,
+                    "startOffset": 109282,
                     "endColumn": 73,
-                    "endOffset": 109349
+                    "endOffset": 109351
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7980,9 +7980,9 @@
                 "to": {
                     "startLine": 1425,
                     "startColumn": 4,
-                    "startOffset": 109354,
+                    "startOffset": 109356,
                     "endColumn": 72,
-                    "endOffset": 109422
+                    "endOffset": 109424
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -7999,9 +7999,9 @@
                 "to": {
                     "startLine": 1426,
                     "startColumn": 4,
-                    "startOffset": 109427,
+                    "startOffset": 109429,
                     "endColumn": 73,
-                    "endOffset": 109496
+                    "endOffset": 109498
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8018,10 +8018,10 @@
                 "to": {
                     "startLine": 1427,
                     "startColumn": 4,
-                    "startOffset": 109501,
+                    "startOffset": 109503,
                     "endLine": 1428,
                     "endColumn": 12,
-                    "endOffset": 109642
+                    "endOffset": 109644
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8039,10 +8039,10 @@
                 "to": {
                     "startLine": 1429,
                     "startColumn": 4,
-                    "startOffset": 109647,
+                    "startOffset": 109649,
                     "endLine": 1430,
                     "endColumn": 12,
-                    "endOffset": 109786
+                    "endOffset": 109788
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8060,10 +8060,10 @@
                 "to": {
                     "startLine": 1431,
                     "startColumn": 4,
-                    "startOffset": 109791,
+                    "startOffset": 109793,
                     "endLine": 1432,
                     "endColumn": 12,
-                    "endOffset": 109924
+                    "endOffset": 109926
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8081,9 +8081,9 @@
                 "to": {
                     "startLine": 1433,
                     "startColumn": 4,
-                    "startOffset": 109929,
+                    "startOffset": 109931,
                     "endColumn": 25,
-                    "endOffset": 109950
+                    "endOffset": 109952
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -8100,9 +8100,9 @@
                 "to": {
                     "startLine": 1434,
                     "startColumn": 4,
-                    "startOffset": 109955,
+                    "startOffset": 109957,
                     "endColumn": 65,
-                    "endOffset": 110016
+                    "endOffset": 110018
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8119,9 +8119,9 @@
                 "to": {
                     "startLine": 1435,
                     "startColumn": 4,
-                    "startOffset": 110021,
+                    "startOffset": 110023,
                     "endColumn": 89,
-                    "endOffset": 110106
+                    "endOffset": 110108
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8138,9 +8138,9 @@
                 "to": {
                     "startLine": 1436,
                     "startColumn": 4,
-                    "startOffset": 110111,
+                    "startOffset": 110113,
                     "endColumn": 79,
-                    "endOffset": 110186
+                    "endOffset": 110188
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8157,9 +8157,9 @@
                 "to": {
                     "startLine": 1437,
                     "startColumn": 4,
-                    "startOffset": 110191,
+                    "startOffset": 110193,
                     "endColumn": 91,
-                    "endOffset": 110278
+                    "endOffset": 110280
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8176,9 +8176,9 @@
                 "to": {
                     "startLine": 1438,
                     "startColumn": 4,
-                    "startOffset": 110283,
+                    "startOffset": 110285,
                     "endColumn": 97,
-                    "endOffset": 110376
+                    "endOffset": 110378
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8195,10 +8195,10 @@
                 "to": {
                     "startLine": 1439,
                     "startColumn": 4,
-                    "startOffset": 110381,
+                    "startOffset": 110383,
                     "endLine": 1440,
                     "endColumn": 12,
-                    "endOffset": 110486
+                    "endOffset": 110488
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8216,9 +8216,9 @@
                 "to": {
                     "startLine": 1441,
                     "startColumn": 4,
-                    "startOffset": 110491,
+                    "startOffset": 110493,
                     "endColumn": 77,
-                    "endOffset": 110564
+                    "endOffset": 110566
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8235,9 +8235,9 @@
                 "to": {
                     "startLine": 1442,
                     "startColumn": 4,
-                    "startOffset": 110569,
+                    "startOffset": 110571,
                     "endColumn": 105,
-                    "endOffset": 110670
+                    "endOffset": 110672
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8254,9 +8254,9 @@
                 "to": {
                     "startLine": 1443,
                     "startColumn": 4,
-                    "startOffset": 110675,
+                    "startOffset": 110677,
                     "endColumn": 91,
-                    "endOffset": 110762
+                    "endOffset": 110764
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8273,9 +8273,9 @@
                 "to": {
                     "startLine": 1444,
                     "startColumn": 4,
-                    "startOffset": 110767,
+                    "startOffset": 110769,
                     "endColumn": 103,
-                    "endOffset": 110866
+                    "endOffset": 110868
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8292,9 +8292,9 @@
                 "to": {
                     "startLine": 1445,
                     "startColumn": 4,
-                    "startOffset": 110871,
+                    "startOffset": 110873,
                     "endColumn": 109,
-                    "endOffset": 110976
+                    "endOffset": 110978
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8311,10 +8311,10 @@
                 "to": {
                     "startLine": 1446,
                     "startColumn": 4,
-                    "startOffset": 110981,
+                    "startOffset": 110983,
                     "endLine": 1447,
                     "endColumn": 12,
-                    "endOffset": 111098
+                    "endOffset": 111100
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8332,10 +8332,10 @@
                 "to": {
                     "startLine": 1448,
                     "startColumn": 4,
-                    "startOffset": 111103,
+                    "startOffset": 111105,
                     "endLine": 1451,
                     "endColumn": 12,
-                    "endOffset": 111261
+                    "endOffset": 111263
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8353,10 +8353,10 @@
                 "to": {
                     "startLine": 1452,
                     "startColumn": 4,
-                    "startOffset": 111266,
+                    "startOffset": 111268,
                     "endLine": 1455,
                     "endColumn": 12,
-                    "endOffset": 111418
+                    "endOffset": 111420
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8374,9 +8374,9 @@
                 "to": {
                     "startLine": 1456,
                     "startColumn": 4,
-                    "startOffset": 111423,
+                    "startOffset": 111425,
                     "endColumn": 34,
-                    "endOffset": 111453
+                    "endOffset": 111455
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -8393,10 +8393,10 @@
                 "to": {
                     "startLine": 1457,
                     "startColumn": 4,
-                    "startOffset": 111458,
+                    "startOffset": 111460,
                     "endLine": 1463,
                     "endColumn": 10,
-                    "endOffset": 111871
+                    "endOffset": 111873
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -8414,10 +8414,10 @@
                 "to": {
                     "startLine": 1464,
                     "startColumn": 4,
-                    "startOffset": 111876,
+                    "startOffset": 111878,
                     "endLine": 1470,
                     "endColumn": 10,
-                    "endOffset": 112249
+                    "endOffset": 112251
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -8435,10 +8435,10 @@
                 "to": {
                     "startLine": 1471,
                     "startColumn": 4,
-                    "startOffset": 112254,
+                    "startOffset": 112256,
                     "endLine": 1473,
                     "endColumn": 10,
-                    "endOffset": 112426
+                    "endOffset": 112428
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -8456,10 +8456,10 @@
                 "to": {
                     "startLine": 1474,
                     "startColumn": 4,
-                    "startOffset": 112431,
+                    "startOffset": 112433,
                     "endLine": 1476,
                     "endColumn": 10,
-                    "endOffset": 112605
+                    "endOffset": 112607
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -8477,10 +8477,10 @@
                 "to": {
                     "startLine": 1477,
                     "startColumn": 4,
-                    "startOffset": 112610,
+                    "startOffset": 112612,
                     "endLine": 1479,
                     "endColumn": 12,
-                    "endOffset": 112788
+                    "endOffset": 112790
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -8498,10 +8498,10 @@
                 "to": {
                     "startLine": 1480,
                     "startColumn": 4,
-                    "startOffset": 112793,
+                    "startOffset": 112795,
                     "endLine": 1485,
                     "endColumn": 12,
-                    "endOffset": 113153
+                    "endOffset": 113155
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.47.2\\res\\values\\values.xml",
@@ -8519,9 +8519,9 @@
                 "to": {
                     "startLine": 1486,
                     "startColumn": 4,
-                    "startOffset": 113158,
+                    "startOffset": 113160,
                     "endColumn": 79,
-                    "endOffset": 113233
+                    "endOffset": 113235
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8538,9 +8538,9 @@
                 "to": {
                     "startLine": 1487,
                     "startColumn": 4,
-                    "startOffset": 113238,
+                    "startOffset": 113240,
                     "endColumn": 99,
-                    "endOffset": 113333
+                    "endOffset": 113335
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8557,9 +8557,9 @@
                 "to": {
                     "startLine": 1488,
                     "startColumn": 4,
-                    "startOffset": 113338,
+                    "startOffset": 113340,
                     "endColumn": 89,
-                    "endOffset": 113423
+                    "endOffset": 113425
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8576,9 +8576,9 @@
                 "to": {
                     "startLine": 1489,
                     "startColumn": 4,
-                    "startOffset": 113428,
+                    "startOffset": 113430,
                     "endColumn": 109,
-                    "endOffset": 113533
+                    "endOffset": 113535
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8595,9 +8595,9 @@
                 "to": {
                     "startLine": 1490,
                     "startColumn": 4,
-                    "startOffset": 113538,
+                    "startOffset": 113540,
                     "endColumn": 91,
-                    "endOffset": 113625
+                    "endOffset": 113627
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8614,10 +8614,10 @@
                 "to": {
                     "startLine": 1491,
                     "startColumn": 4,
-                    "startOffset": 113630,
+                    "startOffset": 113632,
                     "endLine": 1492,
                     "endColumn": 12,
-                    "endOffset": 113725
+                    "endOffset": 113727
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8635,10 +8635,10 @@
                 "to": {
                     "startLine": 1493,
                     "startColumn": 4,
-                    "startOffset": 113730,
+                    "startOffset": 113732,
                     "endLine": 1494,
                     "endColumn": 12,
-                    "endOffset": 113837
+                    "endOffset": 113839
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8656,10 +8656,10 @@
                 "to": {
                     "startLine": 1495,
                     "startColumn": 4,
-                    "startOffset": 113842,
+                    "startOffset": 113844,
                     "endLine": 1496,
                     "endColumn": 12,
-                    "endOffset": 113951
+                    "endOffset": 113953
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8677,10 +8677,10 @@
                 "to": {
                     "startLine": 1497,
                     "startColumn": 4,
-                    "startOffset": 113956,
+                    "startOffset": 113958,
                     "endLine": 1498,
                     "endColumn": 12,
-                    "endOffset": 114067
+                    "endOffset": 114069
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8698,10 +8698,10 @@
                 "to": {
                     "startLine": 1499,
                     "startColumn": 4,
-                    "startOffset": 114072,
+                    "startOffset": 114074,
                     "endLine": 1500,
                     "endColumn": 12,
-                    "endOffset": 114183
+                    "endOffset": 114185
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8719,9 +8719,9 @@
                 "to": {
                     "startLine": 1501,
                     "startColumn": 4,
-                    "startOffset": 114188,
+                    "startOffset": 114190,
                     "endColumn": 93,
-                    "endOffset": 114277
+                    "endOffset": 114279
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8738,9 +8738,9 @@
                 "to": {
                     "startLine": 1502,
                     "startColumn": 4,
-                    "startOffset": 114282,
+                    "startOffset": 114284,
                     "endColumn": 113,
-                    "endOffset": 114391
+                    "endOffset": 114393
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8757,9 +8757,9 @@
                 "to": {
                     "startLine": 1503,
                     "startColumn": 4,
-                    "startOffset": 114396,
+                    "startOffset": 114398,
                     "endColumn": 117,
-                    "endOffset": 114509
+                    "endOffset": 114511
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8776,10 +8776,10 @@
                 "to": {
                     "startLine": 1504,
                     "startColumn": 4,
-                    "startOffset": 114514,
+                    "startOffset": 114516,
                     "endLine": 1505,
                     "endColumn": 12,
-                    "endOffset": 114611
+                    "endOffset": 114613
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8797,10 +8797,10 @@
                 "to": {
                     "startLine": 1506,
                     "startColumn": 4,
-                    "startOffset": 114616,
+                    "startOffset": 114618,
                     "endLine": 1507,
                     "endColumn": 12,
-                    "endOffset": 114731
+                    "endOffset": 114733
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8818,10 +8818,10 @@
                 "to": {
                     "startLine": 1508,
                     "startColumn": 4,
-                    "startOffset": 114736,
+                    "startOffset": 114738,
                     "endLine": 1509,
                     "endColumn": 12,
-                    "endOffset": 114853
+                    "endOffset": 114855
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8839,9 +8839,9 @@
                 "to": {
                     "startLine": 1510,
                     "startColumn": 4,
-                    "startOffset": 114858,
+                    "startOffset": 114860,
                     "endColumn": 81,
-                    "endOffset": 114935
+                    "endOffset": 114937
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8858,9 +8858,9 @@
                 "to": {
                     "startLine": 1511,
                     "startColumn": 4,
-                    "startOffset": 114940,
+                    "startOffset": 114942,
                     "endColumn": 103,
-                    "endOffset": 115039
+                    "endOffset": 115041
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8877,9 +8877,9 @@
                 "to": {
                     "startLine": 1512,
                     "startColumn": 4,
-                    "startOffset": 115044,
+                    "startOffset": 115046,
                     "endColumn": 119,
-                    "endOffset": 115159
+                    "endOffset": 115161
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8896,9 +8896,9 @@
                 "to": {
                     "startLine": 1513,
                     "startColumn": 4,
-                    "startOffset": 115164,
+                    "startOffset": 115166,
                     "endColumn": 125,
-                    "endOffset": 115285
+                    "endOffset": 115287
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8915,9 +8915,9 @@
                 "to": {
                     "startLine": 1514,
                     "startColumn": 4,
-                    "startOffset": 115290,
+                    "startOffset": 115292,
                     "endColumn": 97,
-                    "endOffset": 115383
+                    "endOffset": 115385
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8934,9 +8934,9 @@
                 "to": {
                     "startLine": 1515,
                     "startColumn": 4,
-                    "startOffset": 115388,
+                    "startOffset": 115390,
                     "endColumn": 93,
-                    "endOffset": 115477
+                    "endOffset": 115479
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8953,9 +8953,9 @@
                 "to": {
                     "startLine": 1516,
                     "startColumn": 4,
-                    "startOffset": 115482,
+                    "startOffset": 115484,
                     "endColumn": 87,
-                    "endOffset": 115565
+                    "endOffset": 115567
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8972,9 +8972,9 @@
                 "to": {
                     "startLine": 1517,
                     "startColumn": 4,
-                    "startOffset": 115570,
+                    "startOffset": 115572,
                     "endColumn": 111,
-                    "endOffset": 115677
+                    "endOffset": 115679
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -8991,9 +8991,9 @@
                 "to": {
                     "startLine": 1518,
                     "startColumn": 4,
-                    "startOffset": 115682,
+                    "startOffset": 115684,
                     "endColumn": 115,
-                    "endOffset": 115793
+                    "endOffset": 115795
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9010,9 +9010,9 @@
                 "to": {
                     "startLine": 1519,
                     "startColumn": 4,
-                    "startOffset": 115798,
+                    "startOffset": 115800,
                     "endColumn": 121,
-                    "endOffset": 115915
+                    "endOffset": 115917
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9029,9 +9029,9 @@
                 "to": {
                     "startLine": 1520,
                     "startColumn": 4,
-                    "startOffset": 115920,
+                    "startOffset": 115922,
                     "endColumn": 111,
-                    "endOffset": 116027
+                    "endOffset": 116029
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9048,10 +9048,10 @@
                 "to": {
                     "startLine": 1521,
                     "startColumn": 4,
-                    "startOffset": 116032,
+                    "startOffset": 116034,
                     "endLine": 1523,
                     "endColumn": 12,
-                    "endOffset": 116202
+                    "endOffset": 116204
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9069,9 +9069,9 @@
                 "to": {
                     "startLine": 1524,
                     "startColumn": 4,
-                    "startOffset": 116207,
+                    "startOffset": 116209,
                     "endColumn": 115,
-                    "endOffset": 116318
+                    "endOffset": 116320
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9088,9 +9088,9 @@
                 "to": {
                     "startLine": 1525,
                     "startColumn": 4,
-                    "startOffset": 116323,
+                    "startOffset": 116325,
                     "endColumn": 85,
-                    "endOffset": 116404
+                    "endOffset": 116406
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9107,10 +9107,10 @@
                 "to": {
                     "startLine": 1526,
                     "startColumn": 4,
-                    "startOffset": 116409,
+                    "startOffset": 116411,
                     "endLine": 1527,
                     "endColumn": 12,
-                    "endOffset": 116516
+                    "endOffset": 116518
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9128,10 +9128,10 @@
                 "to": {
                     "startLine": 1528,
                     "startColumn": 4,
-                    "startOffset": 116521,
+                    "startOffset": 116523,
                     "endLine": 1529,
                     "endColumn": 12,
-                    "endOffset": 116640
+                    "endOffset": 116642
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9149,9 +9149,9 @@
                 "to": {
                     "startLine": 1530,
                     "startColumn": 4,
-                    "startOffset": 116645,
+                    "startOffset": 116647,
                     "endColumn": 66,
-                    "endOffset": 116707
+                    "endOffset": 116709
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9168,10 +9168,10 @@
                 "to": {
                     "startLine": 1531,
                     "startColumn": 4,
-                    "startOffset": 116712,
+                    "startOffset": 116714,
                     "endLine": 1532,
                     "endColumn": 12,
-                    "endOffset": 116833
+                    "endOffset": 116835
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9189,9 +9189,9 @@
                 "to": {
                     "startLine": 1533,
                     "startColumn": 4,
-                    "startOffset": 116838,
+                    "startOffset": 116840,
                     "endColumn": 67,
-                    "endOffset": 116901
+                    "endOffset": 116903
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9208,10 +9208,10 @@
                 "to": {
                     "startLine": 1534,
                     "startColumn": 4,
-                    "startOffset": 116906,
+                    "startOffset": 116908,
                     "endLine": 1535,
                     "endColumn": 12,
-                    "endOffset": 117029
+                    "endOffset": 117031
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9229,10 +9229,10 @@
                 "to": {
                     "startLine": 1536,
                     "startColumn": 4,
-                    "startOffset": 117034,
+                    "startOffset": 117036,
                     "endLine": 1537,
                     "endColumn": 12,
-                    "endOffset": 117173
+                    "endOffset": 117175
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9250,10 +9250,10 @@
                 "to": {
                     "startLine": 1538,
                     "startColumn": 4,
-                    "startOffset": 117178,
+                    "startOffset": 117180,
                     "endLine": 1539,
                     "endColumn": 12,
-                    "endOffset": 117301
+                    "endOffset": 117303
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9271,9 +9271,9 @@
                 "to": {
                     "startLine": 1540,
                     "startColumn": 4,
-                    "startOffset": 117306,
+                    "startOffset": 117308,
                     "endColumn": 68,
-                    "endOffset": 117370
+                    "endOffset": 117372
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9290,9 +9290,9 @@
                 "to": {
                     "startLine": 1541,
                     "startColumn": 4,
-                    "startOffset": 117375,
+                    "startOffset": 117377,
                     "endColumn": 94,
-                    "endOffset": 117465
+                    "endOffset": 117467
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9309,9 +9309,9 @@
                 "to": {
                     "startLine": 1542,
                     "startColumn": 4,
-                    "startOffset": 117470,
+                    "startOffset": 117472,
                     "endColumn": 114,
-                    "endOffset": 117580
+                    "endOffset": 117582
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9328,9 +9328,9 @@
                 "to": {
                     "startLine": 1543,
                     "startColumn": 4,
-                    "startOffset": 117585,
+                    "startOffset": 117587,
                     "endColumn": 112,
-                    "endOffset": 117693
+                    "endOffset": 117695
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9347,9 +9347,9 @@
                 "to": {
                     "startLine": 1544,
                     "startColumn": 4,
-                    "startOffset": 117698,
+                    "startOffset": 117700,
                     "endColumn": 98,
-                    "endOffset": 117792
+                    "endOffset": 117794
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9366,9 +9366,9 @@
                 "to": {
                     "startLine": 1545,
                     "startColumn": 4,
-                    "startOffset": 117797,
+                    "startOffset": 117799,
                     "endColumn": 108,
-                    "endOffset": 117901
+                    "endOffset": 117903
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9385,9 +9385,9 @@
                 "to": {
                     "startLine": 1546,
                     "startColumn": 4,
-                    "startOffset": 117906,
+                    "startOffset": 117908,
                     "endColumn": 110,
-                    "endOffset": 118012
+                    "endOffset": 118014
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9404,9 +9404,9 @@
                 "to": {
                     "startLine": 1547,
                     "startColumn": 4,
-                    "startOffset": 118017,
+                    "startOffset": 118019,
                     "endColumn": 110,
-                    "endOffset": 118123
+                    "endOffset": 118125
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9423,9 +9423,9 @@
                 "to": {
                     "startLine": 1548,
                     "startColumn": 4,
-                    "startOffset": 118128,
+                    "startOffset": 118130,
                     "endColumn": 100,
-                    "endOffset": 118224
+                    "endOffset": 118226
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9442,9 +9442,9 @@
                 "to": {
                     "startLine": 1549,
                     "startColumn": 4,
-                    "startOffset": 118229,
+                    "startOffset": 118231,
                     "endColumn": 104,
-                    "endOffset": 118329
+                    "endOffset": 118331
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9461,10 +9461,10 @@
                 "to": {
                     "startLine": 1550,
                     "startColumn": 4,
-                    "startOffset": 118334,
+                    "startOffset": 118336,
                     "endLine": 1551,
                     "endColumn": 12,
-                    "endOffset": 118441
+                    "endOffset": 118443
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9482,10 +9482,10 @@
                 "to": {
                     "startLine": 1552,
                     "startColumn": 4,
-                    "startOffset": 118446,
+                    "startOffset": 118448,
                     "endLine": 1553,
                     "endColumn": 12,
-                    "endOffset": 118571
+                    "endOffset": 118573
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9503,9 +9503,9 @@
                 "to": {
                     "startLine": 1554,
                     "startColumn": 4,
-                    "startOffset": 118576,
+                    "startOffset": 118578,
                     "endColumn": 90,
-                    "endOffset": 118662
+                    "endOffset": 118664
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9522,9 +9522,9 @@
                 "to": {
                     "startLine": 1555,
                     "startColumn": 4,
-                    "startOffset": 118667,
+                    "startOffset": 118669,
                     "endColumn": 122,
-                    "endOffset": 118785
+                    "endOffset": 118787
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9541,10 +9541,10 @@
                 "to": {
                     "startLine": 1556,
                     "startColumn": 4,
-                    "startOffset": 118790,
+                    "startOffset": 118792,
                     "endLine": 1557,
                     "endColumn": 12,
-                    "endOffset": 118897
+                    "endOffset": 118899
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9562,9 +9562,9 @@
                 "to": {
                     "startLine": 1558,
                     "startColumn": 4,
-                    "startOffset": 118902,
+                    "startOffset": 118904,
                     "endColumn": 85,
-                    "endOffset": 118983
+                    "endOffset": 118985
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9581,9 +9581,9 @@
                 "to": {
                     "startLine": 1559,
                     "startColumn": 4,
-                    "startOffset": 118988,
+                    "startOffset": 118990,
                     "endColumn": 103,
-                    "endOffset": 119087
+                    "endOffset": 119089
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9600,10 +9600,10 @@
                 "to": {
                     "startLine": 1560,
                     "startColumn": 4,
-                    "startOffset": 119092,
+                    "startOffset": 119094,
                     "endLine": 1561,
                     "endColumn": 12,
-                    "endOffset": 119195
+                    "endOffset": 119197
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9621,10 +9621,10 @@
                 "to": {
                     "startLine": 1562,
                     "startColumn": 4,
-                    "startOffset": 119200,
+                    "startOffset": 119202,
                     "endLine": 1563,
                     "endColumn": 12,
-                    "endOffset": 119295
+                    "endOffset": 119297
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9642,10 +9642,10 @@
                 "to": {
                     "startLine": 1564,
                     "startColumn": 4,
-                    "startOffset": 119300,
+                    "startOffset": 119302,
                     "endLine": 1565,
                     "endColumn": 12,
-                    "endOffset": 119413
+                    "endOffset": 119415
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9663,10 +9663,10 @@
                 "to": {
                     "startLine": 1566,
                     "startColumn": 4,
-                    "startOffset": 119418,
+                    "startOffset": 119420,
                     "endLine": 1567,
                     "endColumn": 12,
-                    "endOffset": 119517
+                    "endOffset": 119519
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9684,10 +9684,10 @@
                 "to": {
                     "startLine": 1568,
                     "startColumn": 4,
-                    "startOffset": 119522,
+                    "startOffset": 119524,
                     "endLine": 1569,
                     "endColumn": 12,
-                    "endOffset": 119621
+                    "endOffset": 119623
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9705,10 +9705,10 @@
                 "to": {
                     "startLine": 1570,
                     "startColumn": 4,
-                    "startOffset": 119626,
+                    "startOffset": 119628,
                     "endLine": 1571,
                     "endColumn": 12,
-                    "endOffset": 119747
+                    "endOffset": 119749
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9726,9 +9726,9 @@
                 "to": {
                     "startLine": 1572,
                     "startColumn": 4,
-                    "startOffset": 119752,
+                    "startOffset": 119754,
                     "endColumn": 87,
-                    "endOffset": 119835
+                    "endOffset": 119837
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9745,9 +9745,9 @@
                 "to": {
                     "startLine": 1573,
                     "startColumn": 4,
-                    "startOffset": 119840,
+                    "startOffset": 119842,
                     "endColumn": 89,
-                    "endOffset": 119925
+                    "endOffset": 119927
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9764,9 +9764,9 @@
                 "to": {
                     "startLine": 1574,
                     "startColumn": 4,
-                    "startOffset": 119930,
+                    "startOffset": 119932,
                     "endColumn": 109,
-                    "endOffset": 120035
+                    "endOffset": 120037
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9783,9 +9783,9 @@
                 "to": {
                     "startLine": 1575,
                     "startColumn": 4,
-                    "startOffset": 120040,
+                    "startOffset": 120042,
                     "endColumn": 83,
-                    "endOffset": 120119
+                    "endOffset": 120121
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9802,9 +9802,9 @@
                 "to": {
                     "startLine": 1576,
                     "startColumn": 4,
-                    "startOffset": 120124,
+                    "startOffset": 120126,
                     "endColumn": 53,
-                    "endOffset": 120173
+                    "endOffset": 120175
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9821,9 +9821,9 @@
                 "to": {
                     "startLine": 1577,
                     "startColumn": 4,
-                    "startOffset": 120178,
+                    "startOffset": 120180,
                     "endColumn": 63,
-                    "endOffset": 120237
+                    "endOffset": 120239
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9840,9 +9840,9 @@
                 "to": {
                     "startLine": 1578,
                     "startColumn": 4,
-                    "startOffset": 120242,
+                    "startOffset": 120244,
                     "endColumn": 105,
-                    "endOffset": 120343
+                    "endOffset": 120345
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9859,9 +9859,9 @@
                 "to": {
                     "startLine": 1579,
                     "startColumn": 4,
-                    "startOffset": 120348,
+                    "startOffset": 120350,
                     "endColumn": 109,
-                    "endOffset": 120453
+                    "endOffset": 120455
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9878,9 +9878,9 @@
                 "to": {
                     "startLine": 1580,
                     "startColumn": 4,
-                    "startOffset": 120458,
+                    "startOffset": 120460,
                     "endColumn": 83,
-                    "endOffset": 120537
+                    "endOffset": 120539
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",
@@ -9897,9 +9897,9 @@
                 "to": {
                     "startLine": 1581,
                     "startColumn": 4,
-                    "startOffset": 120542,
+                    "startOffset": 120544,
                     "endColumn": 119,
-                    "endOffset": 120657
+                    "endOffset": 120659
                 },
                 "from": {
                     "file": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values\\values.xml",

@@ -2,5 +2,9 @@
     {
         "merged": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\david\\OneTong\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\david\\OneTong\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\onetonglogo.png",
+        "source": "C:\\Users\\david\\OneTong\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\onetonglogo.png"
     }
 ]

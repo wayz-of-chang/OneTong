@@ -18,8 +18,8 @@ class ConversationList extends React.Component {
   static navigationOptions = ({ navigation }) => {
 	const {params = {}} = navigation.state;
 	return {
-	  title: 'Conversations',
-	  headerRight: <View style={{marginRight: 20, flexDirection: 'row'}}><Button color='#ccc' title="About" onPress={() => params._showAbout()} /></View>
+	  title: strings.conversations,
+	  headerRight: <View style={{marginRight: 20, flexDirection: 'row'}}><Button color='#ccc' title={strings.about} onPress={() => params._showAbout()} /></View>
     }
   }
   
@@ -45,7 +45,7 @@ class ConversationList extends React.Component {
       <View style={styles.container}>
         <FlatList style={{flexGrow: 1}} data={this.state.conversations} renderItem={this._renderConversation.bind(this)} enableEmptySections={true} keyExtractor={(item, index) => {return index}}/>
         <View style={styles.buttonContainer}>
-          <Button onPress={() => navigate('New Conversation', {_updateConversations: this._updateConversations.bind(this)})} title="New" />
+          <Button onPress={() => navigate('New Conversation', {_updateConversations: this._updateConversations.bind(this)})} title={strings.new} />
         </View>
       </View>
     );
@@ -67,7 +67,7 @@ class ConversationList extends React.Component {
 	        <Text>
 	          {'  '}
 	        </Text>
-	        <Button color='#aaa' onPress={() => {this._removeConversation(item.text, rowData.index)}} title="Delete" />
+	        <Button color='#aaa' onPress={() => {this._removeConversation(item.text, rowData.index)}} title={strings.delete} />
 	      </View>
 	    </TouchableHighlight>
 	  </View>
@@ -91,11 +91,11 @@ class ConversationList extends React.Component {
   
   _removeConversation(row, index) {
     Alert.alert(
-      'Confirm Deletion',
-      'Are you sure you want to delete ' + row + '?',
+      strings.confirm_deletion,
+      strings.deletion_message + row + '?',
       [
-        {text: 'No', onPress: () => {}},
-        {text: 'Yes', onPress: () => {this._deleteConversation(row, index)}}
+        {text: strings.no, onPress: () => {}},
+        {text: strings.yes, onPress: () => {this._deleteConversation(row, index)}}
       ]
     )
   }
@@ -107,7 +107,7 @@ class ConversationList extends React.Component {
 	  AsyncStorage.setItem('Conversations', JSON.stringify(this.state.conversations)).done(); 
 	  AsyncStorage.removeItem('Chat.'+row);
 	} catch (error) { 
-	  Alert.alert ('Could not delete conversation'); 
+	  Alert.alert(strings.deletion_error); 
 	}
   }
   
@@ -136,7 +136,7 @@ class ConversationList extends React.Component {
   }
   
   _showAbout() {
-	Alert.alert('About', 'This is just a basic conversation translator app to help people hold conversations between two languages.  Written by David Chang (2017).')
+	Alert.alert(strings.about, strings.info)
   }
 }
 
@@ -272,8 +272,11 @@ class ChatScreen extends React.Component {
 }
 
 class AddConversation extends React.Component {
-  static navigationOptions = {
-	title: 'New Conversation'
+  static navigationOptions = ({ navigation }) => {
+	const {params = {}} = navigation.state;
+	return {
+	  title: strings.new_conversation
+	}
   }
   constructor(props) {
 	super(props);
@@ -285,9 +288,9 @@ class AddConversation extends React.Component {
       <View style={styles.container}>
         <ScrollView style={{flex: 1, flexDirection: 'column'}}>
           <Text style={styles.spacer}></Text>
-          <Text style={styles.label}>Name</Text>
+          <Text style={styles.label}>{strings.name}</Text>
           <TextInput style={{margin: 20}} autoFocus={true} onChangeText={(textValue) => this.setState({text: textValue})} value={this.state.text} />
-          <Text style={styles.label}>Your Language</Text>
+          <Text style={styles.label}>{strings.language1}</Text>
           <Picker style={{margin: 20}} selectedValue={this.state.language1} onValueChange={(itemValue, itemIndex) => this.setState({language1: itemValue})}>
             <Picker.Item label="English" value="en" />
             <Picker.Item label="Chinese (Simplified)" value="zh-CN" />
@@ -308,7 +311,7 @@ class AddConversation extends React.Component {
             <Picker.Item label="Thai" value="th" />
             <Picker.Item label="Vietnamese" value="vi" />
           </Picker>
-          <Text style={styles.label}>Translated Language</Text>
+          <Text style={styles.label}>{strings.language2}</Text>
           <Picker style={{margin: 20}} selectedValue={this.state.language2} onValueChange={(itemValue, itemIndex) => this.setState({language2: itemValue})}>
             <Picker.Item label="English" value="en" />
             <Picker.Item label="Chinese (Simplified)" value="zh-CN" />
@@ -331,7 +334,7 @@ class AddConversation extends React.Component {
           </Picker>
         </ScrollView>
         <View style={styles.buttonContainer}>
-          <Button onPress={ () => this._saveConversations(goBack, state).done()} title="Add" />
+          <Button onPress={ () => this._saveConversations(goBack, state).done()} title={strings.add} />
         </View>
       </View>
     );
@@ -351,12 +354,8 @@ class AddConversation extends React.Component {
 	    goBack();
 	  }).done();
 	} catch (error) { 
-	  Alert.alert ('Could not add new conversation'); 
+	  Alert.alert(strings.add_error); 
 	}
-  }
-  
-  _removeConversation() {
-    Alert.alert('Removing conversation!')
   }
 }
 
@@ -446,6 +445,23 @@ const AppNavigator = StackNavigator({
 
 const strings = new LocalizationStrings({
   en: {
-	send: "Send"
+	conversations: "Conversations",
+	about: "About",
+	"new": "New",
+	"delete": "Delete",
+	confirm_deletion: 'Confirm Deletion',
+	deletion_message: 'Are you sure you want to delete ',
+	deletion_error: 'Could not delete conversation',
+	no: 'No',
+	yes: 'Yes',
+	about: 'About',
+	info: 'This is just a basic conversation translator app to help people hold conversations between two languages.  Written by David Chang (2017).',
+	send: "Send",
+	new_conversation: 'New Conversation',
+	name: "Name",
+	language1: "Your Language",
+	language2: "Translated Language",
+	add: "Add",
+	add_error: 'Could not add new conversation'
   }
 });
